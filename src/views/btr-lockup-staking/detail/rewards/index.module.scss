@@ -1,0 +1,54 @@
+.rewards{
+    h2{
+        margin-top: 30px;
+        color: #141928;
+        font-size: 18px;
+        font-weight:500;
+    }
+    ul{
+        margin-top: 20px;
+        padding-left: 0;
+        li{
+            margin-right: 130px;
+            display: inline-block;
+            p{
+                color: #1E3246;
+                font-size: 30px;
+                margin-bottom: 8px;
+            }
+            span{
+                color: #828CA0;
+                font-size: 14px;
+            }
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .rewards{
+        padding: 0px 20px;
+        h2{
+            margin-top: 20px;
+        }
+        ul{
+            li{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                span{
+                    order: 1;
+                }
+                p{
+                    order: 2;
+                    font-size: 14px;
+                }
+                &:last-of-type{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

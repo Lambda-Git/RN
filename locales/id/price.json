@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Harga | {{coinName}} Harga, Kapitalisasi Pasar, Pasar | benar",
+        "keywords":"{{coinName}} Harga, {{coinFullName}} Harga, {{coinName}} terhadap USD, {{coinName}} Nilai",
+        "description":"Lihat harga {{coinFullName}} langsung untuk melacak perubahan harga secara real-time. Ikuti data pasar terbaru, analisis di Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Harga, Token Leveraged, ETF Kripto, Pasar | benar",
+        "etfKeywords":"{{coinName}} Harga, Token Leveraged, ETF Kripto, Pasar, Bitrue Exchange",
+        "etfDescription":"Bitrue Leveraged Tokens - Jenis produk derivatif yang memberi Anda eksposur leverage terhadap aset dasar. Nikmati peningkatan leverage tanpa risiko likuidasi."
+    },
+    "title":"Harga Kripto",
+    "coinPrice":"{{coinFullName}} Harga",
+    "BasicInfo":"{{coinName}} Informasi Pasar",
+    "UnderlyingAsset":"Aset Dasar",
+    "NetValue":"Nilai bersih",
+    "DailyManagementFee":"Biaya Manajemen Harian",
+    "relatedLinks":"{{coinName}} Tautan yang berhubungan",
+    "MarketCap":"Kapitalisasi Pasar",
+    "rank":"Pangkat",
+    "CirculatingSupply":"Persediaan yang Beredar",
+    "totalSupply":"Jumlah Pasokan",
+    "MaximumSupply":"Pasokan Maksimal",
+    "OfficialWebsite":"Situs Resmi",
+    "explorer":"Penjelajah",
+    "markets":"{{coinName}} Harga Langsung",
+    "24HVolume":"Volume 24 jam",
+    "coinIntroduction":"Tentang {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Evaluasi Keamanan",
+        "HighlightsAlerts":"Sorotan & Peringatan",
+        "thirdParty":"Peringkat diberikan oleh situs pihak ketiga, yang menunjukkan situasi proyek investasi.",
+        "ViewMore":"Lihat lebih banyak",
+        "ViewLess":"Lihat lebih sedikit",
+        "DataFrom":"data dari",
+        "Highlights":{
+            "audit_history":"Audit keamanan tersedia",
+            "coderepo_health":"Kesehatan kode repo dalam kondisi sangat baik",
+            "bug_bounty":"Mendukung program bug bounty yang sedang berjalan",
+            "team_identity":"Anggota tim inti dapat diidentifikasi",
+            "kyc":"Tim telah berhasil melewati verifikasi KYC",
+            "twitter_follower":"Jumlah Pengikut Twitter/X menduduki peringkat teratas {{data}}",
+            "market_cap":"Kapitalisasi pasar menduduki peringkat teratas {{data}}",
+            "trading_volume":"Volume perdagangan harian menduduki peringkat teratas {{data}}",
+            "token_activity":"Jumlah MAU peringkat teratas {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Penilaian lebih lanjut atas audit keamanan diperlukan",
+            "coderepo_health":"Kesehatan kode repo di bawah rata-rata",
+            "team_identity":"Anggota tim inti dianonimkan",
+            "twitter_closure":"Akun Twitter/X Project ditutup atau ditangguhkan",
+            "price_slippage":"Slippage harga terdeteksi dalam tiga bulan terakhir"
+        }
+    }
+}

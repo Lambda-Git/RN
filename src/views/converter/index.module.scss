@@ -1,0 +1,351 @@
+.component {
+    .banner {
+        min-height: 500px;
+        background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgba(235, 180, 50, 0.15) 100%);
+
+        .banner_content {
+            width: 1200px;
+            margin: 0px auto;
+            display: flex;
+            justify-content: space-between;
+
+            .banner_left {
+                .breadcrumbs {
+                    margin-top: 52px;
+                    margin-bottom: 64px;
+                    display: flex;
+                    align-items: center;
+
+                    span {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #828C9B;
+                        line-height: 20px;
+                    }
+
+                    span.coinNames {
+                        font-weight: 500;
+                        color: #191E28;
+                    }
+
+                    span.links {
+                        cursor: pointer;
+                    }
+
+                    span.links:hover {
+                        color: #191E28;
+                    }
+
+                    i {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                        font-size: 12px;
+                        color: #828C9B;
+                    }
+                }
+
+                h2 {
+                    font-size: 48px;
+                    font-weight: 600;
+                    color: #191E28;
+                    line-height: 62px;
+                    max-width: 520px;
+                }
+
+                h4 {
+                    max-width: 544px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #373C46;
+                    line-height: 28px;
+                    margin-top: 8px;
+                    margin-bottom: 40px;
+                }
+
+                h3 {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: #373C46;
+                    line-height: 28px;
+                    margin-bottom: 9px;
+                }
+
+                h6,
+                h5 {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 28px;
+                }
+
+                h6 {
+                    margin-bottom: 58px;
+                }
+
+                a {
+                    width: 341px;
+                }
+
+                div.btns {
+                    width: 341px;
+                    text-align: center;
+                    padding: 18px 0;
+                    background: #EBB432;
+                    border-radius: 32px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #191E28;
+                    line-height: 26px;
+                    cursor: pointer;
+
+                    a {
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #191E28;
+                        line-height: 26px;
+                    }
+
+                }
+
+                div.btns:hover {
+                    background: #E6AA1E;
+                }
+            }
+
+        }
+    }
+
+    .converter {
+        width: 1200px;
+        margin: 0px auto;
+
+        .commom_title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #191E28;
+            line-height: 42px;
+        }
+
+        .convertDesc {
+            margin-top: 56px;
+
+            p {
+                font-size: 12px;
+                font-weight: 500;
+                color: #B0B9C3;
+                line-height: 24px;
+            }
+        }
+
+        .top50 {
+            margin-top: 56px;
+
+            .sub {
+                font-size: 16px;
+                font-weight: 400;
+                color: #373C46;
+                line-height: 24px;
+                margin-top: 16px;
+            }
+
+            .list {
+
+                .listItem {
+                    margin-top: 56px;
+
+                    h2 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #191E28;
+                        line-height: 26px;
+                    }
+
+                    .coinList {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+
+                        .symbolItem {
+                            margin-top: 32px;
+                            width: 10%;
+                            text-align: left;
+                            cursor: pointer;
+
+                            a {
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #191E28;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .converterLines {
+        margin-bottom: 123px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .component {
+        .banner {
+            min-height: 500px;
+            background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgba(235, 180, 50, 0.15) 100%);
+
+            .banner_content {
+                width: 100%;
+                padding: 0 17px;
+                display: inline-block;
+
+                .banner_left {
+                    .breadcrumbs {
+                        margin-top: 21px;
+                        margin-bottom: 32px;
+                        display: flex;
+                        align-items: center;
+
+                        // span {
+                        //     font-size: 16px;
+                        //     font-weight: 500;
+                        //     color: #828C9B;
+                        //     line-height: 20px;
+                        // }
+
+                        // span.coinNames {
+                        //     font-weight: 500;
+                        //     color: #191E28;
+                        // }
+
+                        // span.links {
+                        //     cursor: pointer;
+                        // }
+
+                        // span.links:hover {
+                        //     color: #191E28;
+                        // }
+
+                        // i {
+                        //     margin-left: 4px;
+                        //     margin-right: 4px;
+                        //     font-size: 12px;
+                        //     color: #828C9B;
+                        // }
+                    }
+
+                    h2 {
+                        font-size: 32px;
+                        line-height: 42px;
+                        max-width: 100%;
+                    }
+
+                    h4 {
+                        max-width: 100%;
+                        font-size: 14px;
+                        margin-bottom: 32px;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    // h6,
+                    // h5 {
+                    //     font-size: 14px;
+                    //     font-weight: 400;
+                    //     color: #828C9B;
+                    //     line-height: 28px;
+                    // }
+
+                    h6 {
+                        margin-bottom: 32px;
+                    }
+
+                    div.btns {
+                        width: 100%;
+                        padding: 14px 0;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+
+                    div.btns:hover {
+                        background: #E6AA1E;
+                    }
+                }
+
+            }
+        }
+
+        .converter {
+            width: 100%;
+            padding: 0 17px;
+
+            .commom_title {
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            .convertDesc {
+                margin-top: 40px;
+
+                p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 20px;
+                }
+            }
+
+            .top50 {
+                margin-top: 40px;
+
+                .sub {
+                    font-size: 14px;
+                    color: #828C9B;
+                    line-height: 20px;
+                }
+
+                .list {
+
+                    .listItem {
+                        margin-top: 32px;
+
+                        h2 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: #191E28;
+                            line-height: 26px;
+                        }
+
+                        .coinList {
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+
+                            .symbolItem {
+                                margin-top: 16px;
+                                width: 33.3333%;
+                                text-align: left;
+                                cursor: pointer;
+
+                                a {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    color: #191E28;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .converterLines {
+            margin-bottom: 56px;
+        }
+    }
+}

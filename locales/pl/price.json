@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Cena | {{coinName}} Cena, kapitalizacja rynkowa, rynki | Bitrut",
+        "keywords":"{{coinName}} Cena, {{coinFullName}} Cena, {{coinName}} na USD, {{coinName}} Wartość",
+        "description":"Wyświetl cenę na żywo {{coinFullName}}, aby śledzić zmiany cen w czasie rzeczywistym. Śledź najnowsze dane rynkowe, analizy na Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Cena, tokeny lewarowane, kryptowaluty ETF, rynki | Bitrut",
+        "etfKeywords":"{{coinName}} Cena, tokeny lewarowane, kryptowaluty ETF, rynki, wymiana Bitrue",
+        "etfDescription":"Tokeny Lewarowane Bitrue – rodzaj produktu pochodnego, który zapewnia lewarowaną ekspozycję na instrument bazowy. Ciesz się zwiększoną dźwignią bez ryzyka likwidacji."
+    },
+    "title":"Cena kryptowalut",
+    "coinPrice":"{{coinFullName}} Cena",
+    "BasicInfo":"{{coinName}} Informacje rynkowe",
+    "UnderlyingAsset":"Aktywa bazowe",
+    "NetValue":"Wartość netto",
+    "DailyManagementFee":"Dzienna opłata za zarządzanie",
+    "relatedLinks":"{{coinName}} Powiązane linki",
+    "MarketCap":"Kapitalizacja rynkowa",
+    "rank":"Ranga",
+    "CirculatingSupply":"Krążące zaopatrzenie",
+    "totalSupply":"Całkowita podaż",
+    "MaximumSupply":"Maksymalna podaż",
+    "OfficialWebsite":"Oficjalna strona internetowa",
+    "explorer":"poszukiwacz",
+    "markets":"{{coinName}} Cena na żywo",
+    "24HVolume":"Głośność 24H",
+    "coinIntroduction":"O {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Ocena bezpieczeństwa",
+        "HighlightsAlerts":"Najważniejsze informacje i alerty",
+        "thirdParty":"Ocena wystawiana jest przez obcy serwis, wskazujący sytuację projektu inwestycyjnego.",
+        "ViewMore":"Zobacz więcej",
+        "ViewLess":"Zobacz mniej",
+        "DataFrom":"dane z",
+        "Highlights":{
+            "audit_history":"Dostępne audyty bezpieczeństwa",
+            "coderepo_health":"Kondycja repozytorium kodu jest w doskonałym stanie",
+            "bug_bounty":"Obsługuje bieżący program nagród za błędy",
+            "team_identity":"Można zidentyfikować głównych członków zespołu",
+            "kyc":"Zespół pomyślnie przeszedł weryfikację KYC",
+            "twitter_follower":"Liczba obserwujących na Twitterze/X zajmuje pierwsze miejsce {{data}}",
+            "market_cap":"Kapitalizacja rynkowa zajmuje pierwsze miejsce {{data}}",
+            "trading_volume":"Dzienny wolumen obrotu zajmuje pierwsze miejsce {{data}}",
+            "token_activity":"Liczba MAU zajmuje pierwsze miejsce {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Wymagana dalsza ocena audytów bezpieczeństwa",
+            "coderepo_health":"Kondycja repozytorium kodu jest poniżej średniej",
+            "team_identity":"Członkowie głównego zespołu są anonimowi",
+            "twitter_closure":"Konto projektu na Twitterze/X zostało zamknięte lub zawieszone",
+            "price_slippage":"W ciągu ostatnich trzech miesięcy wykryto poślizg cenowy"
+        }
+    }
+}

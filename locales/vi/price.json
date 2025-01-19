@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Giá | {{coinName}} Giá, Vốn hóa thị trường, Thị trường | song ngữ",
+        "keywords":"{{coinName}} Giá, {{coinFullName}} Giá, {{coinName}} sang USD, {{coinName}} Giá trị",
+        "description":"Xem giá {{coinFullName}} trực tiếp để theo dõi sự thay đổi giá theo thời gian thực. Theo dõi dữ liệu, phân tích thị trường mới nhất trên Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Giá, Token đòn bẩy, ETF tiền điện tử, Thị trường | song ngữ",
+        "etfKeywords":"{{coinName}} Giá, Token đòn bẩy, ETF tiền điện tử, Thị trường, Sàn giao dịch Bitrue",
+        "etfDescription":"Mã thông báo đòn bẩy Bitrue - Một loại sản phẩm phái sinh cung cấp cho bạn khả năng tiếp cận đòn bẩy với tài sản cơ bản. Tận hưởng đòn bẩy tăng lên mà không có rủi ro thanh lý."
+    },
+    "title":"Giá tiền điện tử",
+    "coinPrice":"{{coinFullName}} Giá",
+    "BasicInfo":"{{coinName}} Thông tin thị trường",
+    "UnderlyingAsset":"Tài sản cơ bản",
+    "NetValue":"Giá trị ròng",
+    "DailyManagementFee":"Phí quản lý hàng ngày",
+    "relatedLinks":"{{coinName}} Liên kết liên quan",
+    "MarketCap":"Vốn hóa thị trường",
+    "rank":"Thứ hạng",
+    "CirculatingSupply":"Nguồn cung lưu thông",
+    "totalSupply":"Tổng cung",
+    "MaximumSupply":"Nguồn cung tối đa",
+    "OfficialWebsite":"Trang web chính thức",
+    "explorer":"nhà thám hiểm",
+    "markets":"{{coinName}} Giá trực tiếp",
+    "24HVolume":"Âm lượng 24 giờ",
+    "coinIntroduction":"Về {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Đánh giá bảo mật",
+        "HighlightsAlerts":"Điểm nổi bật & Cảnh báo",
+        "thirdParty":"Đánh giá được cung cấp bởi trang web của bên thứ ba, cho biết tình hình của dự án đầu tư.",
+        "ViewMore":"Xem thêm",
+        "ViewLess":"Xem ít hơn",
+        "DataFrom":"dữ liệu từ",
+        "Highlights":{
+            "audit_history":"Kiểm tra bảo mật có sẵn",
+            "coderepo_health":"Tình trạng mã repo đang ở tình trạng tuyệt vời",
+            "bug_bounty":"Hỗ trợ chương trình tiền thưởng lỗi đang diễn ra",
+            "team_identity":"Các thành viên cốt lõi của nhóm có thể được xác định",
+            "kyc":"Nhóm đã vượt qua xác minh KYC thành công",
+            "twitter_follower":"Số lượng người theo dõi Twitter/X xếp hạng top {{data}}",
+            "market_cap":"Vốn hóa thị trường xếp hạng hàng đầu {{data}}",
+            "trading_volume":"Khối lượng giao dịch hàng ngày xếp hạng hàng đầu {{data}}",
+            "token_activity":"Số lượng MAU đứng đầu {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Cần đánh giá thêm về kiểm toán an ninh",
+            "coderepo_health":"Tình trạng repo mã dưới mức trung bình",
+            "team_identity":"Các thành viên cốt lõi của nhóm được ẩn danh",
+            "twitter_closure":"Tài khoản Twitter/X của dự án đã bị đóng hoặc bị đình chỉ",
+            "price_slippage":"Trượt giá được phát hiện trong vòng ba tháng qua"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Pris | {{coinName}} Pris, börsvärde, marknader | Bittrue",
+        "keywords":"{{coinName}} Pris, {{coinFullName}} Pris, {{coinName}} till USD, {{coinName}} Värde",
+        "description":"Visa priset på {{coinFullName}} i realtid för att spåra prisändringarna i realtid. Följ de senaste marknadsdata, analys på Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Pris, Leveraged Tokens，Crypto ETFs, Markets | Bittrue",
+        "etfKeywords":"{{coinName}} Pris, Leveraged Tokens, Crypto ETFs, Markets, Bitrue Exchange",
+        "etfDescription":"Bitrue Leveraged Tokens - En typ av derivatprodukt som ger dig hävstångsexponering mot den underliggande tillgången. Njut av ökad hävstång utan risk för likvidation."
+    },
+    "title":"Krypto pris",
+    "coinPrice":"{{coinFullName}} Pris",
+    "BasicInfo":"{{coinName}} Marknadsinformation",
+    "UnderlyingAsset":"Underliggande tillgång",
+    "NetValue":"Nettovärde",
+    "DailyManagementFee":"Daglig förvaltningsavgift",
+    "relatedLinks":"{{coinName}} Relaterade länkar",
+    "MarketCap":"Börsvärde",
+    "rank":"Rang",
+    "CirculatingSupply":"Cirkulerande utbud",
+    "totalSupply":"Totalt utbud",
+    "MaximumSupply":"Maximalt utbud",
+    "OfficialWebsite":"Officiell hemsida",
+    "explorer":"Utforskare",
+    "markets":"{{coinName}} Livepris",
+    "24HVolume":"24H volym",
+    "coinIntroduction":"Handla om {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Säkerhetsutvärdering",
+        "HighlightsAlerts":"Höjdpunkter och varningar",
+        "thirdParty":"Betyget tillhandahålls av en tredjepartswebbplats, som indikerar investeringsprojektets situation.",
+        "ViewMore":"Visa mer",
+        "ViewLess":"Visa mindre",
+        "DataFrom":"data från",
+        "Highlights":{
+            "audit_history":"Säkerhetsrevisioner tillgängliga",
+            "coderepo_health":"Code repo hälsa är i utmärkt skick",
+            "bug_bounty":"Stöder pågående bug-bounty-program",
+            "team_identity":"Kärnteammedlemmar är identifierbara",
+            "kyc":"Teamet har klarat KYC-verifieringen",
+            "twitter_follower":"Antal Twitter/X-följare rankas högst {{data}}",
+            "market_cap":"Börsvärde rankas högst {{data}}",
+            "trading_volume":"Daglig handelsvolym rankas högst {{data}}",
+            "token_activity":"Antal MAU rankas överst {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Ytterligare bedömning av säkerhetsrevisioner krävs",
+            "coderepo_health":"Code repo hälsa är under genomsnittet",
+            "team_identity":"Kärnteammedlemmar är anonymiserade",
+            "twitter_closure":"Projects Twitter/X-konto stängdes eller stängdes av",
+            "price_slippage":"Prisfall har upptäckts under de senaste tre månaderna"
+        }
+    }
+}

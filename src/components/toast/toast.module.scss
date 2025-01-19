@@ -1,0 +1,95 @@
+.component {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: move 0.3s ease 0s;
+    z-index: 1001;
+    .toast{
+        min-width: 260px;
+        max-width: 350px;
+        color: #232832;
+        display: flex;
+        align-items: center;
+        padding: 15px 18px;
+        border-radius: 8px;
+        border:1px solid transparent;
+        i{
+            width: 16px;
+            margin-right: 8px;
+            font-size: 16px;
+        }
+        &_msg{
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #373C46;
+        }
+        &_success{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 8px 0px #EBEDEF;
+            border-radius: 6px;
+            i{
+                color: #0ABE82;
+            }
+        }
+        &_warn{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 8px 0px #EBEDEF;
+            border-radius: 6px;
+            i{
+                color: #E6AA1E;
+            }
+        }
+        &_info{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 8px 0px #EBEDEF;
+            border-radius: 6px;
+            i{
+                color: #B0B9C3;
+            }
+        }
+        &_error{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 8px 0px #EBEDEF;
+            border-radius: 6px;
+            i{
+                color: #F04B55;
+            }
+        }
+    }
+    @keyframes move {
+        0% {
+            opacity: 0;
+            transform: translate(0, -70px);
+        }
+        20% {
+            opacity: 0.6;
+            transform: translate(0, -50px);
+        }
+        40% {    
+            opacity: 0.8;
+            transform: translate(0, -30px);
+        }
+        60% {    
+            opacity: 0.8;
+            transform: translate(0, -10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0, 0px);
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .component {
+        .toast{
+            max-width: calc(100% - 40px);
+            padding: 10px 16px;
+            border:none;
+        }
+    }
+}

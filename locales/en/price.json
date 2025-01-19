@@ -1,0 +1,53 @@
+{
+    "seo": {
+        "title": "{{coinFullName}} Price | {{coinName}} Price, Marketcap, Markets | Bitrue",
+        "keywords": "{{coinName}} Price, {{coinFullName}} Price, {{coinName}} to USD, {{coinName}} Value",
+        "description": "View the live {{coinFullName}} price to track the real-time price changes. Follow the latest market data, analysis on Bitrue Crypto Exchange.",
+        "etfTitle": "{{coinName}} Price, Leveraged Tokens，Crypto ETFs, Markets | Bitrue",
+        "etfKeywords": "{{coinName}} Price, Leveraged Tokens, Crypto ETFs , Markets, Bitrue Exchange",
+        "etfDescription": "Bitrue Leveraged Tokens - A type of derivative product that gives you leveraged exposure to the underlying asset. Enjoy increased leverage without risk of liquidation."
+    },
+    "title": "Crypto Price",
+    "coinPrice": "{{coinFullName}} Price",
+    "BasicInfo": "{{coinName}} Market Information",
+    "UnderlyingAsset": "Underlying Asset",
+    "NetValue": "Net Value",
+    "DailyManagementFee": "Daily Management Fee",
+    "relatedLinks": "{{coinName}} Related Links",
+    "MarketCap": "Market Cap",
+    "rank": "Rank",
+    "CirculatingSupply": "Circulating Supply",
+    "totalSupply": "Total Supply",
+    "MaximumSupply": "Maximum Supply",
+    "OfficialWebsite": "Official Website",
+    "explorer": "Explorer",
+    "markets": "{{coinName}} Live Price",
+    "24HVolume": "24H Volume",
+    "coinIntroduction": "About {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo": {
+        "SaveEvalue": "Security Evaluation",
+        "HighlightsAlerts": "Highlights & Alerts",
+        "thirdParty": "Rating is provided by a third-party site, indicating the investment project's situation.",
+        "ViewMore": "View more",
+        "ViewLess": "View less",
+        "DataFrom": "data from",
+        "Highlights": {
+            "audit_history": "Security audits available",
+            "coderepo_health": "Code repo health is in excellent condition",
+            "bug_bounty": "Supports on-going bug bounty program",
+            "team_identity": "Core team members are identifiable",
+            "kyc": "Team has successfully passed KYC verification",
+            "twitter_follower": "Number of Twitter/X Followers ranks top {{data}}",
+            "market_cap": "Market cap ranks top {{data}}",
+            "trading_volume": "Daily trading volume ranks top {{data}}",
+            "token_activity": "Number of MAU ranks top {{data}}"
+        },
+        "Alerts": {
+            "audit_history": "Further assessment of security audits required",
+            "coderepo_health": "Code repo health is below average",
+            "team_identity": "Core team members are anonymized",
+            "twitter_closure": "Project's Twitter/X account was closed or suspended",
+            "price_slippage": "Price slippage detected within the last three months"
+        }
+    }
+}

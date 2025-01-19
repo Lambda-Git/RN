@@ -1,0 +1,89 @@
+.component{
+    min-height: 100vh;
+    background: #F7F7F7;
+    padding: 20px;
+    .container{
+        max-width: 1200px;
+        margin: 0px auto;
+        padding: 20px 86px 86px;
+        background: #FFF;
+        border-radius: 6px;
+        h1{ 
+            font-size: 22px;
+            color: #253047;
+            line-height: 30px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        &_box{
+            margin-top: 30px;
+            h2{
+                font-size: 18px;
+                font-weight: 600;
+                color: #191E28;
+            }
+            ul{
+                margin-top: 10px;
+                li{
+                    margin-top: 10px;
+                    font-size: 14px;
+                    color: #373c46;
+                    line-height: 25px;
+                    .table{
+                        margin: 12px 0px 16px;
+                        background: rgba(235,237,239,.4);
+                        border-radius: 8px;
+                        display: table;
+                        min-width: 400px;
+                        &_tr{
+                            display: table-row;
+                        }
+                        &_td{
+                            display: table-cell;
+                            padding: 12px 42px;
+                            text-align: center;
+                            border-bottom: 2px solid #FFF;
+                            &:first-of-type {
+                                text-align: left;
+                                border-right: 2px solid #FFF;
+                            }
+                        }
+                    }
+                    a{
+                        color: #D2A032;
+                        &:hover{
+                            color: #E6AA1E;
+                            text-decoration: underline;
+                        }
+                    }
+                    b{
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .component {
+        padding: 15px;
+        .container{
+            padding: 20px;
+            h1{
+                font-size: 18px;
+                line-height: 25px;
+            }
+            &_box{
+                ul{
+                    li{
+                        .table{
+                            min-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

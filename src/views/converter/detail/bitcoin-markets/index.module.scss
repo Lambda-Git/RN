@@ -1,0 +1,1082 @@
+.component {
+
+    .bitcoinInfo {
+        width: 1200px;
+        margin: 0px auto;
+
+        .commom_title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #191E28;
+            line-height: 42px;
+        }
+
+        .bitcoinMarkets {
+            margin-top: 64px;
+
+            .desc1,
+            .desc2,
+            .desc3 {
+                color: #828C9B;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 500;
+
+                a.link {
+                    color: #D2A032;
+                    font-weight: 600;
+                    text-decoration: underline
+                }
+
+                span.lights {
+                    color: #373C46;
+                    font-weight: 600;
+                }
+
+                span.percent_positive {
+                    color: #0ABE82;
+                    font-weight: 600;
+                }
+
+                span.percent_negative {
+                    color: #F04B55;
+                    font-weight: 600;
+                }
+            }
+
+            .desc1 {
+                margin-top: 16px;
+
+            }
+
+            .tabs {
+                display: flex;
+                margin-top: 32px;
+
+                div {
+                    border-radius: 20px;
+                    border: 1px solid #EBEDEF;
+                    width: 88px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #373C46;
+                    line-height: 19px;
+                    margin-right: 17px;
+                }
+
+                div.active {
+                    color: #D2A032;
+                }
+            }
+
+            .coinList {
+                display: flex;
+                flex-wrap: wrap;
+
+                .coinInfo:nth-child(n):not(:nth-child(4n)) {
+                    margin-right: 16px;
+                }
+
+                .coinInfo {
+                    background: #F9F9F9;
+                    border-radius: 10px;
+                    padding: 16px 20px;
+                    margin-top: 22px;
+                    width: 288px;
+
+                    h2 {
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: #232832;
+                        line-height: 27px;
+                        margin-bottom: 6px;
+                    }
+
+                    .coinPrice {
+                        display: flex;
+
+                        h3 {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #828C9B;
+                            line-height: 20px;
+                            margin-right: 9px;
+                        }
+
+                        h4 {
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 20px;
+                        }
+
+                        h4.percent_positive {
+                            color: #0ABE82;
+                        }
+
+                        h4.percent_negative {
+                            color: #F04B55;
+                        }
+                    }
+                }
+            }
+        }
+
+        .exchangeRate {
+            margin-top: 100px;
+
+            .desc {
+                margin-top: 16px;
+                margin-bottom: 32px;
+                font-size: 16px;
+                font-weight: 500;
+                color: #828C9B;
+                line-height: 24px;
+
+                span {
+                    color: #373C46;
+                    font-weight: 600;
+                }
+            }
+
+            .charts {
+
+                .charts_header {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 30px;
+
+                    .left {
+                        display: flex;
+                        align-items: center;
+
+                        span.name,
+                        span.count {
+                            font-size: 24px;
+                            font-weight: 500;
+                            color: #232832;
+                            line-height: 32px;
+                        }
+
+                        span.name {
+                            margin-left: 12px;
+                            margin-right: 12px;
+                        }
+
+                        span.percent_positive {
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 20px;
+                            margin-right: 3px;
+                            margin-left: 8px;
+                            color: #0ABE82;
+                        }
+
+                        span.percent_negative {
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 20px;
+                            margin-right: 3px;
+                            margin-left: 8px;
+                            color: #F04B55;
+                        }
+
+                        span.times {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #828C9B;
+                            line-height: 24px;
+                        }
+                    }
+
+                    .right {
+                        display: flex;
+                        align-items: center;
+
+                        .timeTab {
+                            display: flex;
+                            align-items: center;
+
+                            div {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #828C9B;
+                                line-height: 24px;
+                                margin-right: 12px;
+                                cursor: pointer;
+                            }
+
+                            div.active {
+                                color: #D2A032;
+                            }
+                        }
+
+                        .chartTab {
+                            display: flex;
+                            align-items: center;
+                            background: #fff;
+                            border-radius: 4px;
+                            border: 1px solid #F7F8F9;
+
+                            div {
+                                padding: 6px 12px;
+                                cursor: pointer;
+                            }
+
+                            div.active {
+                                background: #F7F8F9;
+                            }
+                        }
+                    }
+                }
+
+                .charts_main {
+                    height: 478px;
+                    width: 100%;
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                    border: 1px solid #EBEDEF;
+                    padding: 30px 45px 0 30px;
+
+                    .charts_info {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .bitcoinLive {
+            margin-top: 100px;
+
+            .tableList {
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+
+                .listLeft,
+                .listRight {
+                    width: 49%;
+
+                    .title {
+                        font-size: 24px;
+                        font-weight: 500;
+                        color: #232832;
+                        line-height: 32px;
+                        margin-bottom: 20px;
+                    }
+
+                    .list {
+                        border-radius: 10px;
+                        border: 1px solid #EBEDEF;
+                        padding: 20px 30px 0 30px;
+
+                        .list_header {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-bottom: 20px;
+
+                            span {
+                                font-weight: 400;
+                                color: #828C9B;
+                                line-height: 24px;
+                            }
+                        }
+
+                        .list_row_h5 {
+                            display: none;
+                        }
+
+                        .listCoinInfo {
+                            padding: 20px 0;
+                            display: flex;
+                            justify-content: space-between;
+                            border-top: 1px solid #EBEDEF;
+                            cursor: pointer;
+
+                            .coin_mount,
+                            .coin_price {
+                                display: flex;
+
+                                h3 {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #232832;
+                                    line-height: 24px;
+                                    margin-right: 4px;
+                                }
+
+                                h4 {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #D8D8D8;
+                                    line-height: 24px;
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .conversions {
+            margin-top: 100px;
+
+            .list {
+                margin-top: 24px;
+
+                .list_left {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    .listItem {
+                        width: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 24px 48px 24px 0;
+
+                        .cell1 {
+                            display: flex;
+                            align-items: center;
+
+                            span {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #232832;
+                                line-height: 24px;
+                                margin-left: 16px;
+                            }
+
+                            .cell2_h5 {
+                                display: none;
+                            }
+                        }
+
+                        .cell2 {
+                            display: block;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #232832;
+                            line-height: 24px;
+                        }
+
+                        .cell3 {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #D2A032;
+                            line-height: 24px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .moreBtn_h5 {
+                    display: none;
+                }
+            }
+        }
+
+        .topCryptocurrency {
+            margin-top: 100px;
+
+            .table {
+                margin-top: 24px;
+                display: block;
+
+                .header {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 24px;
+                }
+
+                .header,
+                .listItem {
+                    display: flex;
+                    align-items: center;
+
+                    .cell1 {
+                        width: 243px;
+                        display: flex;
+                        align-items: center;
+                        padding: 20px 0 20px 24px;
+
+                        img {
+                            border-radius: 100%;
+                        }
+
+                        h4 {
+                            margin-left: 8px;
+                            margin-right: 8px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #232832;
+                            line-height: 18px;
+                        }
+
+                        h5 {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #B0B9C3;
+                            line-height: 18px;
+                        }
+                    }
+
+                    .cell2 {
+                        width: 172px;
+                        padding: 20px 0 20px 24px;
+                    }
+
+                    .cell3 {
+                        width: 172px;
+                        padding: 20px 0 20px 24px;
+                    }
+
+                    .cell4 {
+                        width: 172px;
+                        padding: 20px 0 20px 24px;
+                    }
+
+                    .cell5 {
+                        width: 172px;
+                        padding: 20px 0 20px 24px;
+                    }
+
+                    .cell6 {
+                        width: 172px;
+                        padding: 20px 0 20px 24px;
+                    }
+
+                    .cell7 {
+                        width: 100px;
+                        padding: 20px 24px 20px 0;
+                        text-align: right;
+                    }
+                }
+
+                .listItem {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #232832;
+                    line-height: 24px;
+                }
+
+                .listItem:hover {
+                    background: #F7F8F9;
+                    cursor: pointer;
+                }
+            }
+
+            .table_h5 {
+                display: none;
+            }
+
+            .moreBtn_h5 {
+                display: none;
+            }
+        }
+
+        .discover {
+            margin-top: 100px;
+
+            .sub {
+                margin-top: 16px;
+                margin-bottom: 46px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #373C46;
+                line-height: 24px;
+            }
+
+            .discoverList {
+                display: flex;
+                flex-wrap: wrap;
+
+                .listItem {
+                    width: 20%;
+                    margin-bottom: 24px;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        border-radius: 100%;
+                    }
+
+                    .coins {
+                        margin-left: 12px;
+
+                        h4 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: #373C46;
+                            line-height: 26px;
+                        }
+
+                        h5 {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #B0B9C3;
+                            line-height: 18px;
+                        }
+                    }
+                }
+
+                .listItem:hover {
+                    cursor: pointer;
+
+                    h4 {
+                        color: #E6AA1E;
+                    }
+                }
+            }
+
+            .moreBtn_h5 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .component {
+        .bitcoinInfo {
+            width: 100%;
+            padding: 0 17px;
+
+            .commom_title {
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            .bitcoinMarkets {
+                margin-top: 57px;
+
+                .desc1,
+                .desc2,
+                .desc3 {
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: 500;
+
+                    // a.link {
+                    //     color: #D2A032;
+                    //     font-weight: 600;
+                    //     text-decoration: underline
+                    // }
+
+                    // span.lights {
+                    //     color: #373C46;
+                    //     font-weight: 600;
+                    // }
+
+                    // span.percent_positive {
+                    //     color: #0ABE82;
+                    //     font-weight: 600;
+                    // }
+
+                    // span.percent_negative {
+                    //     color: #F04B55;
+                    //     font-weight: 600;
+                    // }
+                }
+
+                .desc1 {
+                    margin-top: 15px;
+                    margin-bottom: 25px;
+                }
+
+                .desc2 {
+                    margin-bottom: 25px;
+                }
+
+                .tabs {
+
+                    div {
+                        border-radius: 18px;
+                        border: 1px solid #EBEDEF;
+                        width: 72px;
+                        height: 32px;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #373C46;
+                        line-height: 16px;
+                        margin-right: 8px;
+                    }
+
+                    // div.active {
+                    //     color: #D2A032;
+                    // }
+                }
+
+                .coinList {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .coinInfo:nth-child(n):not(:nth-child(2n)) {
+                        margin-right: 4% !important;
+                    }
+
+                    .coinInfo:nth-child(n):not(:nth-child(4n)) {
+                        margin-right: 0;
+                    }
+
+                    .coinInfo {
+                        background: #F9F9F9;
+                        border-radius: 5px;
+                        padding: 12px 16px;
+                        margin-top: 16px;
+                        width: 48%;
+
+                        h2 {
+                            font-size: 14px;
+                            line-height: 18px;
+                            margin-bottom: 8px;
+                        }
+
+                        .coinPrice {
+                            display: flex;
+
+                            h3 {
+                                font-size: 11px;
+                                line-height: 14px;
+                                margin-right: 8px;
+                            }
+
+                            h4 {
+                                font-size: 11px;
+                                line-height: 14px;
+                            }
+
+                            // h4.percent_positive {
+                            //     color: #0ABE82;
+                            // }
+
+                            // h4.percent_negative {
+                            //     color: #F04B55;
+                            // }
+                        }
+                    }
+                }
+            }
+
+            .exchangeRate {
+                margin-top: 57px;
+
+                .desc {
+                    // margin-top: 16px;
+                    // margin-bottom: 32px;
+                    font-size: 14px;
+                    // line-height: 24px;
+
+                    span {
+                        color: #373C46;
+                        font-weight: 600;
+                    }
+                }
+
+                .charts {
+
+                    .charts_header {
+                        display: block;
+                        margin-bottom: 21px;
+
+                        .left {
+                            display: flex;
+                            align-items: center;
+
+                            img {
+                                width: 26px;
+                                height: 26px;
+                            }
+
+                            span.name,
+                            span.count {
+                                font-size: 20px;
+                                line-height: 27px;
+                            }
+
+                            // span.name {
+                            // margin-left: 12px;
+                            // margin-right: 12px;
+                            // }
+
+                            span.percent_positive {
+                                font-size: 14px;
+                                line-height: 18px;
+                                margin-right: 8px;
+                                margin-left: 8px;
+                            }
+
+                            span.percent_negative {
+                                font-size: 14px;
+                                line-height: 18px;
+                                margin-right: 8px;
+                                margin-left: 8px;
+                            }
+
+                            span.times {
+                                font-size: 12px;
+                                line-height: 12px;
+                            }
+                        }
+
+                        .right {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-top: 16px;
+
+                            .timeTab {
+                                display: flex;
+                                align-items: center;
+
+                                div {
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    margin-right: 16px;
+                                }
+
+                                // div.active {
+                                //     color: #D2A032;
+                                // }
+                            }
+
+                            .chartTab {
+                                display: flex;
+                                align-items: center;
+                                background: #fff;
+                                border-radius: 4px;
+                                border: 1px solid #F7F8F9;
+
+                                div {
+                                    padding: 5px 9px;
+                                    cursor: pointer;
+
+                                    img {
+                                        width: 14px;
+                                        height: 14px;
+                                    }
+                                }
+
+                                div.active {
+                                    background: #F7F8F9;
+                                }
+                            }
+                        }
+                    }
+
+                    .charts_main {
+                        height: 313px;
+                        width: 100%;
+                        border-radius: 0;
+                        border: 1px solid #fff;
+                        padding: 0;
+
+                        .charts_info {
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+
+            .bitcoinLive {
+                margin-top: 57px;
+
+                .tableList {
+                    margin-top: 32px;
+                    display: block;
+
+                    .listLeft {
+                        margin-bottom: 32px;
+                    }
+
+                    .listLeft,
+                    .listRight {
+                        width: 100%;
+
+                        .title {
+                            font-size: 16px;
+                            line-height: 20px;
+                            margin-bottom: 12px;
+                        }
+
+                        .list {
+                            border-radius: 10px;
+                            border: 1px solid #EBEDEF;
+                            padding: 14px 17px 0 17px;
+
+                            .list_header {
+                                margin-bottom: 14px;
+
+                                span {
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                }
+                            }
+
+                            .list_row_h5 {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 13px 0;
+
+                                .list_row_h5_left,
+                                .list_row_h5_right {
+                                    display: flex;
+                                    align-items: center;
+
+                                    span {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #828C9B;
+                                        line-height: 12px;
+                                        margin-left: 5px;
+                                    }
+                                }
+                            }
+
+                            .listCoinInfo {
+                                padding: 16px 0;
+                                display: flex;
+                                justify-content: space-between;
+                                border-top: 1px solid #EBEDEF;
+
+                                .coin_mount,
+                                .coin_price {
+                                    display: flex;
+
+                                    h3 {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #232832;
+                                        line-height: 24px;
+                                        margin-right: 4px;
+                                    }
+
+                                    h4 {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #D8D8D8;
+                                        line-height: 24px;
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .conversions {
+                margin-top: 56px;
+
+                .list {
+                    margin-top: 16px;
+
+                    .list_left {
+                        display: block;
+                        width: 100%;
+
+                        .listItem {
+                            width: 100%;
+                            padding: 20px 0 20px 0;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .cell1 {
+                                img {
+                                    margin-right: 10px;
+                                }
+
+                                span {
+                                    font-size: 16px;
+                                    line-height: 12px;
+                                    margin-left: 0;
+                                }
+
+                                .cell2_h5 {
+                                    display: block;
+                                    color: #828C9B;
+                                    font-size: 14px;
+                                    line-height: 12px;
+                                    margin-top: 8px;
+                                }
+                            }
+
+                            .cell2 {
+                                display: none;
+                            }
+
+                            .cell3 {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #D2A032;
+                                line-height: 24px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .moreBtn_h5 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 4px;
+                        width: 100%;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #373C46;
+                        line-height: 24px;
+                    }
+                }
+            }
+
+            .topCryptocurrency {
+                margin-top: 56px;
+
+                .table {
+                    display: none;
+                }
+
+                .table_h5 {
+                    display: block;
+
+                    .tabs_h5::-webkit-scrollbar {
+                        width: 0;
+                    }
+
+                    .tabs_h5 {
+                        display: flex;
+                        overflow: hidden;
+                        overflow-x: auto;
+                        margin-top: 22px;
+                        margin-bottom: 15px;
+
+                        div {
+                            padding: 8px 21px;
+                            border-radius: 18px;
+                            border: 1px solid #EBEDEF;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #828C9B;
+                            line-height: 16px;
+                            margin-right: 8px;
+                        }
+
+                        div.active {
+                            color: #D2A032;
+                        }
+
+                    }
+
+                    .list_h5 {
+
+                        .listItem {
+                            padding: 16px 20px 16px 4px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .coins {
+                                display: flex;
+                                align-items: center;
+
+                                h2 {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    color: #232832;
+                                    line-height: 12px;
+                                    margin-left: 12px;
+                                }
+                            }
+
+                            h3 {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #232832;
+                                line-height: 12px;
+                            }
+                        }
+                    }
+
+                    .moreBtn_h5 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 4px;
+                        width: 100%;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #373C46;
+                        line-height: 24px;
+                    }
+
+                }
+            }
+
+            .discover {
+                margin-top: 56px;
+
+                .sub {
+                    margin-top: 14px;
+                    margin-bottom: 25px;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+
+                .discoverList {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .listItem {
+                        width: 33.3333%;
+                        margin-bottom: 24px;
+                        display: flex;
+                        align-items: center;
+
+                        .coins {
+                            margin-left: 8px;
+
+                            h4 {
+                                font-size: 16px;
+                                line-height: 26px;
+                            }
+
+                            // h5 {
+                            //     font-size: 14px;
+                            //     line-height: 18px;
+                            // }
+                        }
+                    }
+
+                    .listItem:hover {
+                        cursor: pointer;
+
+                        h4 {
+                            color: #E6AA1E;
+                        }
+                    }
+                }
+
+                .moreBtn_h5 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 4px;
+                    width: 100%;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #373C46;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

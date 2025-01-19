@@ -1,0 +1,66 @@
+.component{
+    padding: 30px 0px 90px;
+    min-height: calc(100vh - 185px - 523px);
+    h2{
+        color: #191e28;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .search{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        .ml20{
+            margin-left: 20px;
+        }
+        &_name{
+            margin-right: 5px;
+        }
+        &_select{
+            width: 150px;
+            &_coin{
+                img{
+                    vertical-align: -3px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        &_line{
+            margin: 0px 5px;
+        }
+        &_btn{
+            display: inline-block;
+            padding: 0 30px;
+            line-height: 30px;
+            color: #191e28;
+            background: #e6aa1e;
+            border-radius: 4px;
+            cursor: pointer;
+            &:hover{
+                background: #ebb432;
+            }
+        }
+    }
+    .list{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .component {
+        padding: 30px 20px 60px;
+        .search{
+            margin-top: 20px;
+            display: block;
+            &_name{
+                display: inline-block;
+            }
+            &_select{
+                display: inline-block;
+            }
+            .ml20{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

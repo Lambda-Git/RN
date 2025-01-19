@@ -1,0 +1,489 @@
+.component{
+    min-height: 100vh;
+    line-height: 1.2;
+    .banner{
+        background: #f9fafc;
+        &_box{
+            height: 380px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: url('~@static/images/flexible-staking/list-slogn-bg.png') no-repeat top center;
+            background-size: contain;
+        }
+        &_slogan{
+            h1{
+                font-size: 42px;
+                color: #090c10;
+                font-weight: 700;
+            }
+            h2{
+                margin-top: 10px;
+                width: 450px;
+                display: inline-block;
+                font-size: 18px;
+                color: #b0b9c3;
+            }
+        }
+        &_balance{
+            ul {
+                li {
+                    display: inline-block;
+                    margin-left: 30px;
+                    text-align: center;
+                    &:first-of-type {
+                        margin-left: 0;
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #212121;
+                    }
+                    span {
+                        margin-top: 5px;
+                        font-size: 24px;
+                        font-weight: 600;
+                        color: #090c10;
+                        line-height: 1.6;
+                    }
+                }
+            }
+            a{
+                display: block;
+                margin-top: 30px;
+                padding: 10px 0px;
+                text-align: center;
+                font-size: 15px;
+                color: #1E3246;
+                background: #E6AA1E;
+                border-radius: 2px;
+                &:hover{
+                    background: #EBB432;
+                }
+                i{
+                    color: #090C10;
+                }
+            }
+        }
+    }
+    .invest{
+        margin-top: 64px;
+        h2{
+            font-size: 20px;
+            color: #191e28;
+            font-weight: 500;
+        }
+        &_total{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            li{
+                width: 25%;
+                &:last-of-type{
+                    text-align: right;
+                }
+                em, span{
+                    display: block;
+                }
+                span{
+                    font-size: 32px;
+                    color: #0abe82;
+                    font-weight: 700;
+                    line-height: 42px;
+                }
+                em{
+                    color: #b0b9c3;
+                    line-height: 22px;
+                }
+                a {
+                    display: inline-block;
+                    padding: 11px 67px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #1E3246;
+                    background: #E6AA1E;
+                    border-radius: 2px;
+                    &:hover {
+                        background: #EBB432;
+                    }
+                }
+            }
+        }
+        &_visible{
+            display: inline-block;
+            padding: 5px 20px;
+            color: #e6aa1e;
+            background: rgba(230, 170, 30, .12);
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        &_info{
+            margin-top: 16px;
+            padding: 15px 60px;
+            background: #f6f8fa;
+            border-radius: 10px;
+            li {
+                display: inline-block;
+                margin-right: 80px;
+                &:last-of-type{
+                    margin-right: 0;
+                }
+                span, em{
+                    display: block;
+                }
+                span{
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #3c5064;
+                    line-height: 27px;
+                }
+                em{
+                    color: #8291a0;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    .list{
+        margin-top: 45px;
+        &_title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h2{
+                color: #090c10;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+        &_search{
+            display: flex;
+            align-items: center;
+            &_assets{
+                cursor: pointer;
+                i {
+                    color: #b0b9c3;
+                    &.checked{
+                        color: #e6aa1e;
+                    }
+                }
+                span{
+                    color: #373c46;
+                    margin-left: 5px;
+                }
+            }
+            &_coin{
+                margin-left: 30px;
+                width: 200px;
+                height: 34px;
+                display: flex;
+                align-items: center;
+                border: 1px solid transparent;
+                background: #f5f8fa;
+                border-radius: 6px;
+                position: relative;
+                &_focus{
+                    border: 1px solid #ddac42;
+                }
+                i{
+                    margin: 0px 12px;
+                    color: #bec6cd;
+                    &.clear{
+                        font-size: 12px;
+                        cursor: pointer;
+                    }
+                }
+                input{
+                    font-weight: 400;
+                }
+                &_list{
+                    width: 100%;
+                    background: #fff;
+                    border-radius: 6px;
+                    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .1);
+                    position: absolute;
+                    top: 35px;
+                    left: 0;
+                    ul{
+                        max-height: 240px;
+                        overflow-y: scroll;
+                        li{
+                            display: flex;
+                            align-items: center;
+                            height: 32px;
+                            padding: 0px 20px;
+                            cursor: pointer;
+                            &:hover{
+                                background: #f8f8f8;
+                            }
+                            img{
+                                border-radius: 100%;
+                                margin-right: 6px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_body{
+            margin-top: 20px;
+            &_theader, &_tbody{
+                display: flex;
+                align-items: center;
+                .coins{
+                    width: 238px;
+                    padding-left: 30px;
+                }
+                .rate{
+                    width: 196px;
+                    padding-left: 40px;
+                }
+                .locktime{
+                    width:202px;
+                }
+                .amount{
+                    width: 280px;
+                }
+                .myInvest{
+                    width: 174px;
+                }
+                .opt{
+                    width: 108px;
+                    text-align: right;
+                    padding-right: 30px;
+                }
+                li{
+                    flex-grow: 1;
+                    flex-basis: 0;
+                }
+            }
+            &_theader{
+                height: 50px;
+                color: #b0b9c3;
+            }
+            &_tbody{
+                padding: 20px 0px;
+                &:hover{
+                    background-color: #fafbfd;
+                }
+                .coins{
+                    img{
+                        border-radius: 100%;
+                    }
+                    .coinp{
+                        margin-left: 6px;
+                        color: #373c46;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                    .fornew {
+                        display: inline-block;
+                        margin-left: 8px;
+                        padding: 5px 10px;
+                        font-size: 12px;
+                        color: #e6aa1e;
+                        white-space: nowrap;
+                        background: rgba(230,170,30,.1);
+                        border-radius: 4px;
+                    }
+                }
+                .rate{
+                    span{
+                        font-size: 20px;
+                    }
+                }
+                .locktime{
+                    span{
+                        font-size: 16px;
+                    }
+                    .timeRange{
+                        display: inline-block;
+                        padding: 10px 13px;
+                        font-size: 14px;
+                        color: #e6aa1e;
+                        border: 1px solid #e6aa1e;
+                        border-radius: 6px;
+                    }
+                }
+                .amount{
+                    color: #373c46;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .myInvest{
+                    span{
+                        color: #373c46;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                    p{
+                        margin-top: 6px;
+                        color: #b0b9c3;
+                    }
+                }
+                .opt{
+                    span, a{
+                        display: inline-block;
+                        width: 78px;
+                        line-height: 40px;
+                        text-align: center;
+                        background: #e6aa1e;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .empty{
+                padding: 130px 0px 240px;
+                text-align: center;
+                i{
+                    font-size: 40px;
+                    color: rgba(190, 198, 205, .5);
+                }
+                p{
+                    color: rgba(190, 198, 205, .7);
+                }
+            }
+        }
+        .more{
+            margin-top: 20px;
+            text-align: center;
+            color: #d2a032;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .component {
+        .banner{
+            background: #090c10;
+            &_box{
+                height: auto;
+                display: block;
+                background: none;
+            }
+            &_slogan{
+                padding-top: 10px;
+                text-align: center;
+                h1{
+                    color: #e6aa1e;
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+                h2{
+                    width: auto;
+                    margin-top: 0;
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+            &_balance{
+                padding: 10px 20px 30px;
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        display: flex;
+                        flex-direction: column; 
+                        &:first-of-type{
+                            text-align: left;
+                        }
+                        &:last-of-type{
+                            text-align: right;
+                        }
+                        span{
+                            order: 1;
+                            font-size: 16px;
+                            color: #FFF;
+                        }
+                        p{
+                            order: 2;
+                            font-size: 12px;
+                            color: #FFF;
+                        }
+                    }
+                }
+                a{
+                    margin-top: 10px;
+                }
+            }
+        }
+        .invest{
+            margin-top: 20px;
+            padding: 0px 20px;
+            &_total{
+                display: block;
+                li{
+                    text-align: center;
+                    span{
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+                    &:first-of-type, &:nth-of-type(2){
+                        width: 50%;
+                        display: inline-block;
+                        margin-bottom: 10px;
+                    }
+                    &:nth-of-type(3), &:nth-of-type(4){
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+            &_visible{
+                width: 100%;
+                text-align: center;
+                background: transparent;
+            }
+            &_info{
+                margin-top: 10px;
+                padding: 10px 20px;
+                li{
+                    width: 50%;
+                    display: inline-block;
+                    margin-right: 0;
+                    span, em{
+                        font-size: 12px;
+                    }
+                    &:nth-of-type(odd){
+                        text-align: left;
+                    }
+                    &:nth-of-type(even){
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        .list{
+            margin-top: 20px;
+            padding: 0px 20px;
+            &_title{
+                display: block;
+            }
+            &_search{
+                margin-top: 10px;
+                &_assets{
+                    order: 2;
+                }
+                &_coin{
+                    order: 1;
+                    margin-left: 0;
+                    margin-right: 20px;
+                }
+            }
+            &_body{
+                &_theader, &_tbody{
+                    .locktime, .amount, .myInvest{
+                        display: none;
+                    }
+                    .coins{
+                        padding-left: 0;
+                    }
+                    .opt{
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

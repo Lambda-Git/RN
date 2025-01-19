@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} السعر | {{coinName}} السعر، القيمة السوقية، الأسواق | صحيح",
+        "keywords":"{{coinName}} السعر، {{coinFullName}} السعر، {{coinName}} بالدولار الأمريكي، {{coinName}} القيمة",
+        "description":"اعرض سعر {{coinFullName}} المباشر لتتبع تغيرات الأسعار في الوقت الفعلي. اتبع أحدث بيانات السوق والتحليلات على Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} السعر، الرموز ذات الرافعة المالية، صناديق الاستثمار المتداولة للعملات المشفرة، الأسواق | صحيح",
+        "etfKeywords":"{{coinName}} السعر، والرموز المميزة ذات الرافعة المالية، وصناديق الاستثمار المتداولة المشفرة، والأسواق، وBitrue Exchange",
+        "etfDescription":"رموز Bitrue ذات الرافعة المالية - نوع من المنتجات المشتقة التي تمنحك التعرض للرافعة المالية للأصل الأساسي. استمتع برافعة مالية متزايدة دون التعرض لخطر التصفية."
+    },
+    "title":"سعر التشفير",
+    "coinPrice":"{{coinFullName}} سعر",
+    "BasicInfo":"{{coinName}} معلومات المتجر",
+    "UnderlyingAsset":"الأصل",
+    "NetValue":"صافي القيمة",
+    "DailyManagementFee":"رسوم الإدارة اليومية",
+    "relatedLinks":"{{coinName}} روابط ذات علاقة",
+    "MarketCap":"القيمة السوقية",
+    "rank":"رتبة",
+    "CirculatingSupply":"العرض المتداول",
+    "totalSupply":"إجمالي العرض",
+    "MaximumSupply":"الحد الأقصى للعرض",
+    "OfficialWebsite":"الموقع الرسمي",
+    "explorer":"إكسبلورر",
+    "markets":"{{coinName}} السعر المباشر",
+    "24HVolume":"حجم 24 ساعة",
+    "coinIntroduction":"عن {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"تقييم الأمن",
+        "HighlightsAlerts":"أبرز التنبيهات",
+        "thirdParty":"يتم توفير التقييم من خلال موقع طرف ثالث، مما يشير إلى حالة المشروع الاستثماري.",
+        "ViewMore":"عرض المزيد",
+        "ViewLess":"عرض أقل",
+        "DataFrom":"معلومات من",
+        "Highlights":{
+            "audit_history":"عمليات التدقيق الأمنية المتاحة",
+            "coderepo_health":"صحة كود الريبو في حالة ممتازة",
+            "bug_bounty":"يدعم برنامج مكافأة الأخطاء المستمر",
+            "team_identity":"يمكن التعرف على أعضاء الفريق الأساسي",
+            "kyc":"لقد نجح الفريق في اجتياز التحقق من KYC",
+            "twitter_follower":"عدد متابعي Twitter/X يحتل المرتبة الأولى {{data}}",
+            "market_cap":"القيمة السوقية تحتل المرتبة الأولى {{data}}",
+            "trading_volume":"حجم التداول اليومي يحتل المرتبة الأولى {{data}}",
+            "token_activity":"عدد مرات استخدام MAU الأعلى {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"مطلوب مزيد من التقييم لعمليات التدقيق الأمني",
+            "coderepo_health":"صحة كود الريبو أقل من المتوسط",
+            "team_identity":"أعضاء الفريق الأساسيين مجهولون",
+            "twitter_closure":"تم إغلاق حساب Twitter/X الخاص بالمشروع أو تعليقه",
+            "price_slippage":"تم اكتشاف انزلاق الأسعار خلال الأشهر الثلاثة الماضية"
+        }
+    }
+}

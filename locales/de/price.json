@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Preis | {{coinName}} Preis, Marktkapitalisierung, Märkte | Bitrue",
+        "keywords":"{{coinName}} Preis, {{coinFullName}} Preis, {{coinName}} zu USD, {{coinName}} Wert",
+        "description":"Sehen Sie sich den Live-{{coinFullName}}-Preis an, um die Preisänderungen in Echtzeit zu verfolgen. Verfolgen Sie die neuesten Marktdaten und Analysen zu Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Preis, Leveraged Tokens, Krypto-ETFs, Märkte | Bitrue",
+        "etfKeywords":"{{coinName}} Preis, gehebelte Token, Krypto-ETFs, Märkte, Bitrue Exchange",
+        "etfDescription":"Bitrue Leveraged Tokens – Eine Art Derivatprodukt, das Ihnen ein gehebeltes Engagement im zugrunde liegenden Vermögenswert ermöglicht. Profitieren Sie von einer erhöhten Hebelwirkung ohne Liquidationsrisiko."
+    },
+    "title":"Kryptopreis",
+    "coinPrice":"{{coinFullName}} Preis",
+    "BasicInfo":"{{coinName}} Marktinformationen",
+    "UnderlyingAsset":"Zugrundeliegende Vermögenswert",
+    "NetValue":"Nettowert",
+    "DailyManagementFee":"Tägliche Verwaltungsgebühr",
+    "relatedLinks":"{{coinName}} Verwandte Links",
+    "MarketCap":"Marktkapitalisierung",
+    "rank":"Rang",
+    "CirculatingSupply":"Umlaufversorgung",
+    "totalSupply":"Gesamtangebot",
+    "MaximumSupply":"Maximales Angebot",
+    "OfficialWebsite":"Offizielle Website",
+    "explorer":"Forscher",
+    "markets":"{{coinName}} Live-Preis",
+    "24HVolume":"24-Stunden-Volumen",
+    "coinIntroduction":"Um {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Sicherheitsbewertung",
+        "HighlightsAlerts":"Highlights und Warnungen",
+        "thirdParty":"Die Bewertung wird von einer externen Website bereitgestellt und gibt Aufschluss über die Situation des Investitionsprojekts.",
+        "ViewMore":"Mehr sehen",
+        "ViewLess":"Weniger anzeigen",
+        "DataFrom":"Daten von",
+        "Highlights":{
+            "audit_history":"Sicherheitsaudits verfügbar",
+            "coderepo_health":"Der Zustand des Code-Repos ist in ausgezeichnetem Zustand",
+            "bug_bounty":"Unterstützt das laufende Bug-Bounty-Programm",
+            "team_identity":"Die Mitglieder des Kernteams sind erkennbar",
+            "kyc":"Das Team hat die KYC-Überprüfung erfolgreich bestanden",
+            "twitter_follower":"Anzahl der Twitter/X-Follower steht an erster Stelle {{data}}",
+            "market_cap":"Marktkapitalisierung steht an erster Stelle {{data}}",
+            "trading_volume":"Das tägliche Handelsvolumen steht an erster Stelle {{data}}",
+            "token_activity":"Anzahl der MAU-Ränge an der Spitze {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Weitere Bewertung der Sicherheitsaudits erforderlich",
+            "coderepo_health":"Der Zustand des Code-Repos ist unterdurchschnittlich",
+            "team_identity":"Die Mitglieder des Kernteams werden anonymisiert",
+            "twitter_closure":"Das Twitter/X-Konto des Projekts wurde geschlossen oder gesperrt",
+            "price_slippage":"Innerhalb der letzten drei Monate wurde ein Preisverfall festgestellt"
+        }
+    }
+}

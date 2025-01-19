@@ -1,0 +1,307 @@
+.component{
+    min-height: 100vh;
+    .banner{
+        height: 360px;
+        background: #090C10 url('~@static/images/flexible-staking/vip-banner.jpg') no-repeat top center / 1680px 360px;
+        &_box{
+            width: 1200px;
+            height: 100%;
+            margin: 0px auto;
+            display: flex;
+            align-items: center;
+            &_slogan{
+                h1{
+                    color: #fff;
+                    font-size: 42px;
+                    font-weight: 700;
+                }
+                h2{
+                    margin-top: 20px;
+                    width: 450px;
+                    color: #b0b9c3;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .account{
+        margin-top: -25px;
+        display: flex;
+        justify-content: space-between;
+        &_box{
+            padding: 25px;
+            height: 180px;
+            background: #FFF;
+            box-shadow: 0px 3px 21px -4px rgba(186, 198, 225, 0.3);
+            border-radius: 8px;
+            h2{
+                line-height: 30px;
+                font-size: 20px;
+                font-weight: 500;
+                color: #1E3246;
+            }
+            &:first-of-type{
+                width: 432px;
+                margin-right: 24px;
+                h2{
+                    padding-left: 36px;
+                    background: url('~@static/images/flexible-staking/vip-acct-btr-icon.png') no-repeat top left / 26px 30px;
+                }
+            }
+            &:last-of-type{
+                flex: 1;
+                h2{
+                    padding-left: 45px;
+                    background: url('~@static/images/flexible-staking/vip-acct-icon.png') no-repeat top left / 37px 21px;
+                }
+            }
+        }
+        &_balance{
+            margin-top: 22px;
+            display: flex;
+            justify-content: space-between;
+            span {
+                line-height: 50px;
+                font-size: 32px;
+                font-weight: 500;
+                color: #1E3246;
+            }
+            a {
+                min-width: 80px;
+                padding: 0px 17px;
+                text-align: center;
+                line-height: 50px;
+                font-weight: 500;
+                color: #1E3246;
+                background: #F2BC22;
+                border-radius: 3px;
+                &:hover{
+                    background: #EAB13F;
+                }
+                i{
+                    vertical-align: middle;
+                }
+            }
+        }
+        &_amount{
+            margin-top: 20px;
+            ul {
+                li {
+                    width: calc(100% / 3);
+                    display: inline-block;
+                    &:last-of-type {
+                        em {
+                            color: #00BF9C;
+                        }
+                    }
+                    em {
+                        display: block;
+                        line-height: 50px;
+                        font-size: 32px;
+                        font-weight: 500;
+                        color: #1E3246;
+                    }
+                    span {
+                        color: #828CA0;
+                    }
+                }
+            }
+        }
+    }
+    .notice{
+        margin-top: 30px;
+        padding: 15px 20px 15px 55px;
+        background: rgba(230, 170, 30, .05);
+        border-radius: 4px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            margin-top: -8px;
+            width: 28px;
+            height: 16px;
+            background: url('~@static/images/flexible-staking/vip-acct-icon.png') no-repeat top left;
+            background-size: contain;
+        }
+    }
+    .invest{
+        margin-top: 30px;
+        &_title{
+            display: flex;
+            justify-content: space-between;
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+                color: #1E3246;
+            }
+            a{
+                color: #3c5064;
+                i {
+                    margin-right: 5px;
+                    font-size: 20px;
+                    vertical-align: -2px;
+                }
+            }
+        }
+        &_list {
+            margin-top: 16px;
+            border: 1px solid #F8F6F4;
+            border-radius: 0px 0px 4px 4px;
+            &_hidden{
+                min-height: 300px;
+                max-height: 300px;
+                overflow-y: hidden;
+            }
+            &_auto{
+                max-height: 615px;
+                overflow-y: auto;
+            }
+            ul {
+                li {
+                    &:first-of-type {
+                        span {
+                            color: #828CA0;
+                        }
+                    }
+                    &:nth-of-type(even) {
+                        background: #FBFCFD;
+                    }
+                    span {
+                        width: calc(100% / 3);
+                        display: inline-block;
+                        text-align: center;
+                        padding: 15px 0px;
+                        color: #3C5064;
+                        &:first-of-type {
+                            text-align: left;
+                            padding-left: 60px;
+                        }
+                        &:last-of-type {
+                            text-align: right;
+                            padding-right: 60px;
+                        }
+                    }
+                    &.invest_list_empty{
+                        height: 244px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #FFFFFF;
+                        p {
+                            text-align: center;
+                            color: rgba(221, 224, 226,1);
+                            i{
+                                font-size: 42px;
+                            }
+                            em {
+                                display: block;
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            &_more {
+                line-height: 50px;
+                text-align: center;
+                color: #828C9B;
+                cursor: pointer;
+            }
+        }
+    }
+    .rules{
+        margin: 50px 0px;
+        h2{
+            font-size: 20px;
+            font-weight: 500;
+            color: #1e3246;
+        }
+        ol{
+            margin-top: 16px;
+            padding-left: 20px;
+            li {
+                list-style-type: decimal;
+                line-height: 25px;
+                color: #1e3246;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .component {
+        .banner{
+            height: auto;
+            background: #090c10;
+            &_box{
+                width: 100%;
+                display: block;
+                padding: 30px 0px 50px;
+                text-align: center;
+                h1{
+                    color: #e6aa1e;
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+                h2{
+                    width: auto;
+                    margin-top: 10px;
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }
+        .account{
+            margin-top: 10px;
+            padding: 0px 20px;
+            display: block;
+            &_box{
+                height: auto;
+                &:first-of-type{
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+            &_amount{
+                ul{
+                    li{
+                        vertical-align: top;
+                        em{
+                            font-size: 16px;
+                        }
+                        span{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .notice{
+            font-size: 12px;
+        }
+        .invest{
+            margin-top: 20px;
+            padding: 0px 20px;
+            &_list{
+                ul{
+                    li{
+                        span{
+                            &:first-of-type{
+                                padding-left: 20px;
+                            }
+                            &:last-of-type{
+                                padding-right: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .rules{
+            margin-top: 20px;
+            padding: 0px 20px;
+        }
+    }
+}

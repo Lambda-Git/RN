@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} 가격 | {{coinName}} 가격, 시가총액, 시장 | 바이트루",
+        "keywords":"{{coinName}} 가격, {{coinFullName}} 가격, {{coinName}}를 USD로, {{coinName}} 값",
+        "description":"실시간 가격 변동을 추적하려면 실시간 {{coinFullName}} 가격을 확인하세요. Bitrue Crypto Exchange에 대한 최신 시장 데이터 분석을 따르십시오.",
+        "etfTitle":"{{coinName}} 가격, 레버리지 토큰, 암호화폐 ETF, 시장 | 바이트루",
+        "etfKeywords":"{{coinName}} 가격, 레버리지 토큰, 암호화폐 ETF, 시장, Bitrue Exchange",
+        "etfDescription":"Bitrue 레버리지 토큰 - 기본 자산에 대한 레버리지 노출을 제공하는 파생 상품 유형입니다. 청산 위험 없이 증가된 레버리지를 즐겨보세요."
+    },
+    "title":"암호화폐 가격",
+    "coinPrice":"{{coinFullName}} 가격",
+    "BasicInfo":"{{coinName}} 시장 정보",
+    "UnderlyingAsset":"기초 자산",
+    "NetValue":"순 가치",
+    "DailyManagementFee":"일일관리비",
+    "relatedLinks":"{{coinName}} 관련된 링크들",
+    "MarketCap":"시가총액",
+    "rank":"계급",
+    "CirculatingSupply":"순환 공급",
+    "totalSupply":"총 공급량",
+    "MaximumSupply":"최대 공급량",
+    "OfficialWebsite":"공식 웹 사이트",
+    "explorer":"탐침",
+    "markets":"{{coinName}} 실시간 가격",
+    "24HVolume":"24시간 거래량",
+    "coinIntroduction":"에 대한 {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"보안 평가",
+        "HighlightsAlerts":"하이라이트 및 알림",
+        "thirdParty":"평가는 제3자 사이트에서 제공되며 투자 프로젝트의 상황을 나타냅니다.",
+        "ViewMore":"더보기",
+        "ViewLess":"간략히 보기",
+        "DataFrom":"데이터",
+        "Highlights":{
+            "audit_history":"보안 감사 가능",
+            "coderepo_health":"코드 저장소 상태가 매우 양호함",
+            "bug_bounty":"지속적인 버그 보상 프로그램 지원",
+            "team_identity":"핵심 팀 구성원을 식별할 수 있습니다.",
+            "kyc":"팀이 KYC 인증을 성공적으로 통과했습니다.",
+            "twitter_follower":"Twitter/X 팔로워 수 상위권 {{data}}",
+            "market_cap":"시가총액 상위권 {{data}}",
+            "trading_volume":"일일 거래량 상위권 {{data}}",
+            "token_activity":"MAU 순위 상위 {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"보안 감사에 대한 추가 평가가 필요함",
+            "coderepo_health":"코드 저장소 상태가 평균 미만입니다.",
+            "team_identity":"핵심 팀 구성원은 익명으로 처리됩니다.",
+            "twitter_closure":"프로젝트의 Twitter/X 계정이 폐쇄되거나 정지되었습니다.",
+            "price_slippage":"지난 3개월 동안 가격 하락이 감지되었습니다."
+        }
+    }
+}

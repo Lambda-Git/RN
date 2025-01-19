@@ -1,0 +1,53 @@
+{
+    "seo": {
+        "title": "{{coinFullName}} 價格 | {{coinName}} 價格、市值、市場 | Bitrue",
+        "keywords": "{{coinName}} 價格，{{coinFullName}} 價格，{{coinName}} to USD，{{coinName}} 價值",
+        "description": "查看實時 {{coinFullName}} 價格以跟踪實時價格變化。關注Bitrue加密貨幣交易所最新市場數據、分析。",
+        "etfTitle": "{{coinName}} 價格、槓桿代幣、加密貨幣 ETF、市場｜Bitrue",
+        "etfKeywords": "{{coinName}} 價格，槓桿代幣，加密 ETF，市場，Bitrue 交易所",
+        "etfDescription": " Bitrue槓桿代幣 - 是一種衍生產品，旨在提供標的資產的槓桿倍數報酬。槓桿配置零爆倉，財富凝聚輕鬆享。"
+    },
+    "title": "數字貨幣價格",
+    "coinPrice": "{{coinFullName}} 價格",
+    "BasicInfo": "{{coinName}} 市場信息",
+    "UnderlyingAsset": "標的資產",
+    "NetValue": "當前淨值",
+    "DailyManagementFee": "資金管理費率",
+    "relatedLinks": "{{coinName}} 相關鏈接",
+    "MarketCap": "流通市值",
+    "rank": "排名",
+    "CirculatingSupply": "流通量",
+    "totalSupply": "總供應量",
+    "MaximumSupply": "最大供應量",
+    "OfficialWebsite": "官網",
+    "explorer": "區塊鏈瀏覽器",
+    "markets": "{{coinName}} 實時價格",
+    "24HVolume": "24小時交易額",
+    "coinIntroduction": "關於{{coinFullName}} ({{coinName}})",
+    "CertikInfoVo": {
+        "SaveEvalue": "安全評分",
+        "HighlightsAlerts": "亮點 & 警示",
+        "thirdParty": "評分由第三方網站提供，僅代表該投資品所屬項目的情況",
+        "ViewMore": "展開",
+        "ViewLess": "收起",
+        "DataFrom": "數據來源",
+        "Highlights": {
+            "audit_history": "項目已通過安全審計",
+            "coderepo_health": "代碼存儲庫健康狀況良好",
+            "bug_bounty": "项目支援持續的漏洞賞金計劃",
+            "team_identity": "核心團隊成員是已實名的",
+            "kyc": "團隊已成功通過KYC驗證",
+            "twitter_follower": "項目 Twitter 粉絲數位居前{{data}}",
+            "market_cap": "項目的市值排名前{{data}}",
+            "trading_volume": "每日交易量排名前{{data}}",
+            "token_activity": "項目月活躍用戶數位居前{{data}}"
+        },
+        "Alerts": {
+            "audit_history": "需要對安全審計進一步核實",
+            "coderepo_health": "代码存储库健康状况低于平均水平",
+            "team_identity": "核心團隊成員匿名化",
+            "twitter_closure": "項目的Twitter/X帳號已關閉或暫停",
+            "price_slippage": "過去三個月內檢測到價格滑點"
+        }
+    }
+}

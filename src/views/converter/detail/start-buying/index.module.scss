@@ -1,0 +1,162 @@
+.component {
+    width: 1200px;
+    margin: 0px auto;
+
+    .commom_title {
+        font-size: 28px;
+        font-weight: 600;
+        color: #191E28;
+        line-height: 42px;
+    }
+
+    .startBuying {
+        margin-top: 100px;
+
+        .sub {
+            font-size: 16px;
+            font-weight: 400;
+            color: #828C9B;
+            line-height: 24px;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+
+        .desc {
+            font-size: 16px;
+            font-weight: 400;
+            color: #D2A032;
+            line-height: 24px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 32px;
+
+            .cardItem {
+                width: 32.4%;
+                border-radius: 16px;
+                border: 1px solid #EBEDEF;
+                padding: 24px;
+                cursor: pointer;
+
+                .imgs {
+                    display: flex;
+                    justify-content: space-between;
+
+                    img.card_left {
+                        width: 40px;
+                        height: 40px;
+                        border: 1px solid #EBEDEF;
+                        border-radius: 100%;
+                    }
+                }
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: #232832;
+                    line-height: 32px;
+                    margin-top: 24px;
+                    margin-bottom: 16px;
+                }
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 24px;
+                }
+            }
+
+            .cardItem:hover {
+                border: 1px solid #373C46;
+
+                .imgs {
+                    img.card_left {
+                        border: 2px solid #373C46;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .component {
+        width: 100%;
+        padding: 0 17px;
+
+        .commom_title {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .startBuying {
+            margin-top: 55px;
+
+            .sub {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .desc {
+                font-size: 14px;
+                line-height: 20px;
+                cursor: pointer;
+            }
+
+            .cards {
+                display: block;
+                margin-top: 24px;
+
+                .cardItem {
+                    width: 100%;
+                    padding: 16px 20px 24px 20px;
+                    margin-bottom: 16px;
+
+                    .imgs {
+                        display: flex;
+                        justify-content: space-between;
+
+                        img.card_icon {
+                            width: 44px;
+                            height: 44px;
+                        }
+
+                        img.card_left {
+                            width: 32px;
+                            height: 32px;
+                            border: 1px solid #EBEDEF;
+                            border-radius: 100%;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        margin-top: 16px;
+                        margin-bottom: 12px;
+                    }
+
+                    h4 {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+
+                .cardItem:hover {
+                    border: 1px solid #EBEDEF;
+
+                    .imgs {
+                        img.card_left {
+                            border: 1px solid #EBEDEF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

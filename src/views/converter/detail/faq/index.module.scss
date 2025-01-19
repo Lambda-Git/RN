@@ -1,0 +1,101 @@
+.component {
+    width: 1200px;
+    margin: 0px auto;
+
+    .fqa {
+        margin-top: 100px;
+        margin-bottom: 60px;
+
+        .commonTitle {
+            font-size: 28px;
+            font-weight: 600;
+            color: #373C46;
+            line-height: 37px;
+            margin-bottom: 16px;
+        }
+
+        .faqList {
+            .fqaItem {
+                padding: 16px 0;
+
+                .header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    cursor: pointer;
+
+                    .title {
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #373C46;
+                        line-height: 30px;
+                    }
+
+                    i {
+                        display: block;
+                        font-size: 14px;
+                        color: #373C46;
+                    }
+                }
+
+                .desc {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 26px;
+                    margin-top: 9px;
+                }
+            }
+
+            .fqaItem:not(:last-child) {
+                border-bottom: 1px solid #EBEDEF;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .component {
+        width: 100%;
+        padding: 0 17px;
+
+        .fqa {
+            margin-top: 25px;
+            margin-bottom: 56px;
+
+            .commonTitle {
+                font-size: 20px;
+                line-height: 28px;
+                margin-bottom: 8px;
+            }
+
+            .faqList {
+                .fqaItem {
+                    padding: 16px 0;
+
+                    .header {
+                        display: block;
+
+                        .title {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+
+                        i {
+                            display: none;
+                        }
+                    }
+
+                    .desc {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+
+                .fqaItem:not(:last-child) {
+                    border-bottom: 1px solid #EBEDEF;
+                }
+            }
+        }
+    }
+}

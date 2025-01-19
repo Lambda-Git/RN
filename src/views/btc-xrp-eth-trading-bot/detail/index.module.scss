@@ -1,0 +1,53 @@
+.component{
+    min-height: 100vh;
+    .banner{
+        background: #f9fafc;
+        &_box{
+            height: 380px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: url('~@static/images/btr-lockup/list-banner.png') no-repeat top right;
+            background-size: contain;
+            background-position-x: 235px;
+        }
+        &_slogan{
+            h1{
+                font-size: 42px;
+                color: #090c10;
+                font-weight: 700;
+            }
+            h2{
+                margin-top: 10px;
+                width: 450px;
+                display: inline-block;
+                font-size: 18px;
+                color: #b0b9c3;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .component {
+        .banner{
+            &_box{
+                height: auto;
+                display: block;
+                background: #090c10;
+                padding: 40px 0px;
+            }
+            &_slogan{
+                text-align: center;
+                h1{
+                    font-size: 18px;
+                    color: #FFF;
+                }
+                h2{
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

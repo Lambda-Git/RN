@@ -1,0 +1,20 @@
+.component{
+    min-width: 190px;
+    display: inline-block;
+    .inputWrap{
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #f5f8fa;
+        border-radius: 8px;
+        .range-picker-input{
+            text-align: center;
+            color: #232832;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 0 10px;
+            cursor: pointer;
+        }
+    }
+}

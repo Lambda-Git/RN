@@ -1,0 +1,15 @@
+{
+    "seo":{
+        "title":"Bitrue - Wiodąca giełda zasobów cyfrowych",
+        "keywords":"bittrue, bitcoin, darmowe bitcoiny, cena bitcoinów, aktualności bitcoinowe, handel bitcoinami, wymiana bitcoinów, portfel bitcoinowy, litecoin",
+        "description":"Bitrue to najbezpieczniejsza i zaawansowana platforma internetowa do kupna, sprzedaży, przesyłania i przechowywania cyfrowej waluty. Jest bezpieczny i łatwy w użyciu. Zapewniamy wymianę Bitcoinów, Bitcoin Cash, Ethereum, USDT i Litecoin na waluty fiducjarne na całym świecie. Dołącz do nas, aby cieszyć się bezpłatną opłatą transakcyjną i rekompensatą za opłatę za wypłatę."
+    },
+    "modal":{
+        "title":"Notatka",
+        "okText":"Potwierdzać",
+        "cancelText":"Anulować"
+    },
+    "other": {
+        "noData": "Brak danych!"
+    }
+}

@@ -1,0 +1,77 @@
+.countdown {
+    margin-bottom: 24px;
+    display: flex;
+
+    .time {
+
+        .count {
+            text-align: center;
+            line-height: 48px;
+            width: 48px;
+            height: 48px;
+            background: #212326;
+            border-radius: 4px;
+            font-size: 28px;
+            font-family: Bitrue-Medium, Bitrue;
+            font-weight: 500;
+            color: #FFFFFF;
+        }
+
+        .count_type {
+            text-align: center;
+            margin-top: 8px;
+            font-size: 12px;
+            font-family: Bitrue-Regular, Bitrue;
+            color: #828C9B;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    .symbols {
+        margin: 0 13px;
+        line-height: 48px;
+        height: 48px;
+        font-size: 18px;
+        font-family: AppleSystemUIFont;
+        color: #1B1E28;
+    }
+}
+
+
+
+@media screen and (max-width:750px) {
+    .countdown {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+
+        .time {
+            margin-right: 13px;
+
+            .count {
+                text-align: center;
+                line-height: 58px;
+                width: 58px;
+                height: 58px;
+                background: #212326;
+                border-radius: 7px;
+                font-size: 28px;
+                font-weight: 500;
+                font-family: D-DINExp-Bold, D-DINExp;
+                font-weight: bold;
+            }
+
+            .count_type {
+                text-align: center;
+                margin-top: 4px;
+                color: #828C9B;
+                line-height: 23px;
+            }
+        }
+
+        .symbols {
+            display: none;
+        }
+    }
+}

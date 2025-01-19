@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'BitruePro';
+    font-display: swap;
+    src: url('/fonts/website/Light.woff2') format('woff2'),
+        url('/fonts/website/Light.otf') format('opentype');
+    font-weight: 200
+}
+
+@font-face {
+    font-family: 'BitruePro';
+    font-display: swap;
+    src: url('/fonts/website/Light.woff2') format('woff2'),
+        url('/fonts/website/Light.otf') format('opentype');
+    font-weight: 300
+}
+
+@font-face {
+    font-family: 'BitruePro';
+    font-display: swap;
+    src: url('/fonts/website/Regular.woff2') format('woff2'),
+        url('/fonts/website/Regular.otf') format('opentype');
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'BitruePro';
+    font-display: swap;
+    src: url('/fonts/website/Medium.woff2') format('woff2'),
+        url('/fonts/website/Medium.otf') format('opentype');
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'BitruePro';
+    font-display: swap;
+    src: url('/fonts/website/SemiBold.woff2') format('woff2'),
+        url('/fonts/website/SemiBold.otf') format('opentype');
+    font-weight: 600
+}
+
+@font-face {
+    font-family: 'BitruePro';
+    font-display: swap;
+    src: url('/fonts/website/SemiBold.woff2') format('woff2'),
+        url('/fonts/website/SemiBold.otf') format('opentype');
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'BitruePro';
+    font-display: swap;
+    src: url('/fonts/website/SemiBold.woff2') format('woff2'),
+        url('/fonts/website/SemiBold.otf') format('opentype');
+    font-weight: 800
+}
+
+html body {
+    font-family: BitruePro;
+}

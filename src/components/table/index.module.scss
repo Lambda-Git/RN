@@ -1,0 +1,62 @@
+.component {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    text-align: left;
+    tr{
+        transition: all 0.3s ease 0s;
+    }
+    & > thead{
+        tr{
+            background: rgba(235, 237, 239, .4);
+            th{
+                color: #B0B9C3;
+                padding: 15px 16px;
+                white-space: nowrap;
+            }
+        }
+    }
+    & > tbody {
+        min-height: 244px;
+        max-height: 340px;
+        overflow-y: auto;
+        tr{
+            &.even-row,
+            &.odd-row{
+                &:hover{
+                    background: rgba(44, 112, 255, .05);
+                }
+                td{
+                    padding: 15px 16px;
+                    color: #373C46;
+                }
+            }
+            &.odd-row{
+                background: rgba(235, 237, 239, .2);
+            }
+            .details{
+                padding: 15px 16px;
+                background: rgba(245, 248, 250, 0.5);
+                border-radius: 4px;
+            }
+            .nodata{
+                width: 100%;
+                min-height: 360px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                &_box{
+                    color: #828C9D;
+                    line-height: 24px;
+                }
+                &_pic{
+                    width: 114px;
+                    height: 100px;
+                    background: url('~@static/images/nodata.png') no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "seo":{
+        "title":"Bitrue - Pertukaran Aset Digital Terkemuka",
+        "keywords":"bitrue, bitcoin, bitcoin gratis, harga bitcoin, berita bitcoin, perdagangan bitcoin, pertukaran bitcoin, dompet bitcoin, litecoin",
+        "description":"Bitrue adalah platform online paling aman dan canggih untuk membeli, menjual, mentransfer, dan menyimpan mata uang digital. Ini aman dan mudah digunakan. Kami menyediakan pertukaran Bitcoin, Bitcoin Cash, Ethereum, USDT dan Litecoin dengan mata uang fiat di seluruh dunia. Bergabunglah bersama kami untuk menikmati bebas biaya transaksi dan menarik kompensasi biaya."
+    },
+    "modal":{
+        "title":"Catatan",
+        "okText":"Mengonfirmasi",
+        "cancelText":"Membatalkan"
+    },
+    "other": {
+        "noData": "Tidak ada data!"
+    }
+}

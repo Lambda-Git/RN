@@ -1,0 +1,35 @@
+.component{
+    width: 100%;
+    ul{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            margin: 0 4px;
+            button{
+                min-width: 32px;
+                text-align: center;
+                line-height: 30px;
+                color: #828c9b;
+                border: 1px solid #ebedef;
+                border-radius: 4px;
+                transition: background-color 0.3s, color 0.3s;
+                cursor: pointer;
+                &:hover, &.active{
+                    color: #ebb432;
+                    border-color: #ebb432;
+                }
+                &.disabled, &.disabled:hover{
+                    color: rgba(0, 0, 0, 0.25);
+                    border-color: rgba(0, 0, 0, 0.04);
+                    background-color: rgba(0, 0, 0, 0.04);
+                    cursor: not-allowed;
+                }
+            }
+            span{
+                color: rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+}

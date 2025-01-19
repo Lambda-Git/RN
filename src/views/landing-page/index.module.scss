@@ -1,0 +1,514 @@
+.component {
+    min-height: 100vh;
+    line-height: 1.2;
+    font-family: Bitrue-Medium, Bitrue;
+
+    .banner {
+
+        &_box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .h5_share {
+                display: none;
+            }
+
+            .left {
+                h1 {
+                    max-width: 620px;
+                    font-size: 36px;
+                    font-weight: 500;
+                    color: #090C10;
+                    line-height: 46px;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    word-wrap: break-word;
+                    margin-top: 28px;
+                }
+
+                h2 {
+                    max-width: 590px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 24px;
+                    margin-top: 10px;
+                    margin-bottom: 24px;
+                    word-wrap: break-word;
+                }
+
+                .countdownContent {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 24px;
+                    margin-bottom: 12px;
+                }
+
+                .account {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #E6AA1E;
+                    line-height: 18px;
+                    padding: 8px 16px;
+                    border-radius: 4px;
+                    border: 1px solid #E6AA1E;
+                    cursor: pointer;
+                }
+
+                .account:hover {
+                    background: #E6AA1E;
+                    color: #191E28;
+                }
+
+                :global(.account_dis) {
+                    color: #BBC3CC;
+                    border: 1px solid #E4E7EB;
+                    cursor: not-allowed;
+                }
+
+                :global(.account_dis):hover {
+                    color: #BBC3CC;
+                    border: 1px solid #E4E7EB;
+                    background: transparent;
+                }
+
+                .seize_a_seat {
+                    height: 40px;
+                }
+
+            }
+
+            .right {
+                width: 43%;
+
+                img {
+                    width: 100%;
+                }
+
+                .backPic_h5Pic {
+                    display: none;
+                }
+
+                .backPic_pcPic {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .landContent {
+        padding-bottom: 40px;
+
+        .share_content {
+            min-height: 32px;
+
+            .share {
+                display: flex;
+                justify-content: flex-end;
+
+                .share_btn {
+                    cursor: pointer;
+                    display: flex;
+                    background: #E6AA1E;
+                    margin: 32px 0;
+                    padding: 12px 24px;
+                    border-radius: 4px;
+
+                    .share_text {
+                        margin-left: 4px;
+                    }
+                }
+
+                .share_btn:hover {
+                    background: #EBB432;
+                    opacity: .75;
+                }
+            }
+        }
+
+
+        .list .land_body:not(:last-child) {
+            margin-bottom: 48px;
+        }
+
+        .land_body {
+            h1 {
+                font-size: 28px;
+                font-weight: 450;
+                color: #373C46;
+                line-height: 32px;
+                cursor: pointer;
+                word-wrap: break-word;
+            }
+
+            h2 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #828C9B;
+                line-height: 26px;
+                margin-top: 16px;
+                cursor: pointer;
+                word-wrap: break-word;
+            }
+
+            .land_imgInfo_pc {
+                display: block;
+                margin-top: 38px;
+                width: 100%;
+            }
+
+            .land_imgInfo_h5 {
+                display: none;
+            }
+        }
+    }
+
+    .modalLogin {
+        font-size: 26px;
+        font-weight: 500;
+        color: #191E28;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 28px;
+        margin-top: 8px;
+    }
+
+    .modalLogin_text {
+        padding: 0 40px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #373C46;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .activity_status {
+        padding: 0 40px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #373C46;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .shareBtns {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+        margin-bottom: 24px;
+
+        a:hover {
+            cursor: pointer;
+        }
+
+        a:nth-child(2) {
+            margin: 0 40px;
+        }
+    }
+
+    .cancelBtn {
+        display: none;
+    }
+
+    .creat_btn_h5 {
+        display: none;
+    }
+
+    .activity_status_modal {
+
+        .errorTitle {
+            font-size: 26px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #191E28;
+            line-height: 37px;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .errorInfo {
+            font-size: 18px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #373C46;
+            line-height: 28px;
+            text-align: center;
+            margin-bottom: 28px;
+            margin-top: 28px;
+        }
+
+        .lines {
+            height: 1px;
+            background: #EEEEEE;
+        }
+
+        .goHome_btn {
+            font-size: 18px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 600;
+            color: #D2A032;
+            line-height: 25px;
+            padding: 22px 0;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .component {
+        padding: 0 16px;
+
+        .banner {
+            &_box {
+                display: block;
+
+                .h5_share_content {
+                    min-height: 12px;
+
+                    .h5_share {
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-right: -17px;
+                        padding-top: 16px;
+                        margin-bottom: 12px;
+                        cursor: pointer;
+
+                        .share_btn {
+                            display: flex;
+                            padding: 8px 20px 8px 24px;
+                            background: #E6AA1E;
+                            border-radius: 27px 0px 0px 27px;
+                            border: 1px solid #E6AA1E;
+                            justify-content: center;
+
+                            .share_text {
+                                font-size: 12px;
+                                font-family: Bitrue-Medium, Bitrue;
+                                font-weight: 500;
+                                color: #FFFFFF;
+                                margin-left: 4px;
+                            }
+
+                            img {
+                                width: 12px;
+                                height: 12px;
+                                margin-top: 1px;
+                            }
+                        }
+                    }
+                }
+
+
+                .left {
+                    h1 {
+                        text-align: center;
+                        font-size: 32px;
+                    }
+
+                    h2 {
+                        max-width: 686px;
+                        font-size: 16px;
+                        line-height: 30px;
+                        margin-top: 12px;
+                        margin-bottom: 12px;
+                        text-align: center;
+                    }
+
+                    .countdownContent {
+                        text-align: center;
+                        font-size: 16px;
+                        line-height: 36px;
+                        margin-bottom: 4px;
+                    }
+
+                    .account {
+                        display: none;
+                    }
+                }
+
+                .right {
+                    padding: 0 52px;
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .backPic_pcPic {
+                        display: none;
+                    }
+
+                    .backPic_h5Pic {
+                        display: block;
+                    }
+                }
+            }
+
+        }
+
+        .landContent {
+            .share_content {
+                min-height: 0px;
+
+                .share {
+                    display: none;
+                }
+            }
+
+            .list .land_body:not(:last-child) {
+                margin-bottom: 24px;
+            }
+
+            .land_body {
+                background: #FFFFFF;
+                border-radius: 22px;
+                padding: 32px 20px;
+
+                h1 {
+                    color: #191E28;
+                    line-height: 30px;
+                    font-size: 22px;
+                }
+
+                h2 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #828C9B;
+                    line-height: 26px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    font-family: Bitrue-Regular, Bitrue;
+                }
+
+                .land_imgInfo_h5 {
+                    display: block;
+                    margin-top: 24px;
+                    width: 100%;
+                }
+
+                .land_imgInfo_pc {
+                    display: none;
+                }
+            }
+        }
+
+        .creat_btn_h5 {
+            display: block;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+            text-align: center;
+            margin: 0;
+            background: #FDFDFD;
+            box-shadow: 0px 0px 20px 0px rgba(35, 40, 50, 0.1);
+            padding: 10px 64px;
+
+            .creat_sign {
+                width: 100%;
+                height: 40px;
+                background: #EBB432;
+                border-radius: 6px;
+                font-family: Roboto-Medium, Roboto;
+                font-weight: 500;
+                color: #191E28;
+                font-size: 16px;
+                text-align: center;
+                line-height: 40px;
+            }
+
+            :global(.account_dis) {
+                color: #BBC3CC;
+                border: 1px solid #E4E7EB;
+                cursor: not-allowed;
+                background: #fff;
+            }
+        }
+
+        .modalLogin {
+            margin-bottom: 24px;
+            font-weight: 450;
+        }
+
+        .modalLogin_text {
+            padding: 0 32px;
+        }
+
+        .shareH5 {
+            top: auto;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            border-radius: 0;
+        }
+
+        .shareBtns {
+            margin: 20px auto;
+            a:nth-child(2) {
+                margin: 0 80px;
+            }
+        }
+
+        .cancelBtn {
+            display: block;
+            width: 343px;
+            height: 40px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            border: 1px solid #EBEDEF;
+            line-height: 40px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #191E28;
+            text-align: center;
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .share_confirm {
+            border-radius: 24px;
+            top: 40%;
+        }
+
+        .activity_status_modal {
+            border-radius: 24px;
+            top: 40%;
+
+            .errorTitle {
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 45px;
+            }
+
+            .errorInfo {
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 50px;
+                margin-bottom: 24px;
+                margin-top: 20px;
+            }
+
+            .lines {
+                height: 1px;
+                background: #EEEEEE;
+            }
+
+            .goHome_btn {
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 26px;
+            }
+        }
+
+    }
+}

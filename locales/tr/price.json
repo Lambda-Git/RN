@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Fiyat | {{coinName}} Fiyat, Piyasa Değeri, Piyasalar | Bitrue",
+        "keywords":"{{coinName}} Fiyat, {{coinFullName}} Fiyat, {{coinName}} - USD, {{coinName}} Değer",
+        "description":"Gerçek zamanlı fiyat değişikliklerini takip etmek için canlı {{coinFullName}} fiyatını görüntüleyin. Bitrue Crypto Exchange'deki en son piyasa verilerini ve analizlerini takip edin.",
+        "etfTitle":"{{coinName}} Fiyat, Kaldıraçlı Tokenlar, Kripto ETF'leri, Piyasalar | Bitrue",
+        "etfKeywords":"{{coinName}} Fiyat, Kaldıraçlı Tokenlar, Kripto ETF'leri, Piyasalar, Bitrue Borsası",
+        "etfDescription":"Bitrue Kaldıraçlı Tokenlar - Dayanak varlığa kaldıraçlı olarak maruz kalmanızı sağlayan bir türev ürün. Tasfiye riski olmadan artan kaldıracın keyfini çıkarın."
+    },
+    "title":"Kripto Fiyatı",
+    "coinPrice":"{{coinFullName}} Fiyat",
+    "BasicInfo":"{{coinName}} Piyasa Bilgileri",
+    "UnderlyingAsset":"Dayanak Varlık",
+    "NetValue":"Net değer",
+    "DailyManagementFee":"Günlük Yönetim Ücreti",
+    "relatedLinks":"{{coinName}} İlgili Bağlantılar",
+    "MarketCap":"Piyasa değeri",
+    "rank":"Rütbe",
+    "CirculatingSupply":"Dolaşımdaki Tedarik",
+    "totalSupply":"Toplam Arz",
+    "MaximumSupply":"Maksimum Arz",
+    "OfficialWebsite":"Resmi internet sitesi",
+    "explorer":"Kaşif",
+    "markets":"{{coinName}} Canlı Fiyat",
+    "24HVolume":"24 Saatlik Hacim",
+    "coinIntroduction":"Hakkında {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Güvenlik Değerlendirmesi",
+        "HighlightsAlerts":"Öne Çıkanlar ve Uyarılar",
+        "thirdParty":"Derecelendirme, yatırım projesinin durumunu gösteren üçüncü taraf bir site tarafından sağlanır.",
+        "ViewMore":"Daha fazla göster",
+        "ViewLess":"Daha az görüntüle",
+        "DataFrom":"gelen veriler",
+        "Highlights":{
+            "audit_history":"Güvenlik denetimleri mevcut",
+            "coderepo_health":"Kod repo sağlığı mükemmel durumda",
+            "bug_bounty":"Devam eden hata ödül programını destekler",
+            "team_identity":"Çekirdek ekip üyeleri tanımlanabilir",
+            "kyc":"Ekip KYC doğrulamasını başarıyla geçti",
+            "twitter_follower":"Twitter/X Takipçi Sayısı ilk sırada {{data}}",
+            "market_cap":"Piyasa değeri en üst sırada {{data}}",
+            "trading_volume":"Günlük işlem hacmi en üst sırada {{data}}",
+            "token_activity":"MAU sayısı en üst sırada yer alıyor {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Güvenlik denetimlerinin daha fazla değerlendirilmesi gerekiyor",
+            "coderepo_health":"Kod repo durumu ortalamanın altında",
+            "team_identity":"Çekirdek ekip üyeleri anonimleştirilmiştir",
+            "twitter_closure":"Projenin Twitter/X hesabı kapatıldı veya askıya alındı",
+            "price_slippage":"Son üç ayda fiyat düşüşü tespit edildi"
+        }
+    }
+}

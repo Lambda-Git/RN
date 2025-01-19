@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Prijs | {{coinName}} Prijs, marktkapitalisatie, markten | Biwaar",
+        "keywords":"{{coinName}} Prijs, {{coinFullName}} Prijs, {{coinName}} naar USD, {{coinName}} Waarde",
+        "description":"Bekijk de live {{coinFullName}} prijs om de realtime prijswijzigingen te volgen. Volg de laatste marktgegevens, analyse op Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Prijs, hefboomtokens, crypto-ETF's, markten | Biwaar",
+        "etfKeywords":"{{coinName}} Prijs, hefboomtokens, Crypto ETF's, markten, Bitrue Exchange",
+        "etfDescription":"Bitrue Leveraged Tokens - Een type derivaat dat u een hefboomblootstelling aan de onderliggende waarde geeft. Geniet van een grotere hefboomwerking zonder risico op liquidatie."
+    },
+    "title":"Crypto-prijs",
+    "coinPrice":"{{coinFullName}} Prijs",
+    "BasicInfo":"{{coinName}} Marktinformatie",
+    "UnderlyingAsset":"Onderliggend actief",
+    "NetValue":"Netto waarde",
+    "DailyManagementFee":"Dagelijkse beheerskosten",
+    "relatedLinks":"{{coinName}} Gerelateerde Links",
+    "MarketCap":"Marktkapitalisatie",
+    "rank":"Rang",
+    "CirculatingSupply":"Circulerend aanbod",
+    "totalSupply":"Totaal aanbod",
+    "MaximumSupply":"Maximaal aanbod",
+    "OfficialWebsite":"Officiële website",
+    "explorer":"Ontdekkingsreiziger",
+    "markets":"{{coinName}} Live prijs",
+    "24HVolume":"24H-volume",
+    "coinIntroduction":"Over {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Beveiligingsevaluatie",
+        "HighlightsAlerts":"Hoogtepunten en waarschuwingen",
+        "thirdParty":"De beoordeling wordt gegeven door een site van derden, die de situatie van het investeringsproject aangeeft.",
+        "ViewMore":"Bekijk meer",
+        "ViewLess":"Bekijk minder",
+        "DataFrom":"data van",
+        "Highlights":{
+            "audit_history":"Beveiligingsaudits beschikbaar",
+            "coderepo_health":"Code repo gezondheid is in uitstekende staat",
+            "bug_bounty":"Ondersteunt het lopende bug bounty-programma",
+            "team_identity":"Kernteamleden zijn herkenbaar",
+            "kyc":"Het team heeft de KYC-verificatie met succes doorstaan",
+            "twitter_follower":"Aantal Twitter/X-volgers staat bovenaan {{data}}",
+            "market_cap":"Marktkapitalisatie staat bovenaan {{data}}",
+            "trading_volume":"Dagelijks handelsvolume staat bovenaan {{data}}",
+            "token_activity":"Aantal MAU-rangen bovenaan {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Verdere beoordeling van beveiligingsaudits vereist",
+            "coderepo_health":"De gezondheid van de coderepo's is onder het gemiddelde",
+            "team_identity":"Kernteamleden worden geanonimiseerd",
+            "twitter_closure":"Het Twitter/X-account van Project is gesloten of opgeschort",
+            "price_slippage":"Prijsdaling gedetecteerd in de afgelopen drie maanden"
+        }
+    }
+}

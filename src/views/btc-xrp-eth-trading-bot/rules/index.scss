@@ -1,0 +1,49 @@
+.coinTIAcss-box-pc {   
+    .trade-rule-block {
+        width: 1200px;
+        margin: auto;
+        padding-bottom: 100px;
+        .rule-title {
+            color: #101010;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 33px;
+            margin-bottom: 24px;
+        }
+        .rule-column {
+            color: #101010;
+            font-weight: 400;
+            border-bottom: 1px solid #d6d5d5;
+            padding: 16px 0;
+            &:last-child {
+                border: none;
+            }
+            .colume-title {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+            .rule-content-line {
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 6px;
+                padding-left: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                a{color:#D2A032}
+            }
+            .erList {
+                padding-left: 16px;
+                .erTitle {
+                    font-size: 16px;
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+}

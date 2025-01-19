@@ -1,0 +1,44 @@
+.tabs{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #F0F0F0;
+    ul{
+        li{
+            display: inline-block;
+            margin-right: 20px;
+            line-height: 45px;
+            cursor: pointer;
+            &.current{
+                color: #ebb432;
+                border-bottom: 2px solid #ebb432;
+            }
+        }
+    }
+}
+.rules{
+    margin-bottom: 30px;
+    ol{
+        padding-left: 20px;
+        li{
+            list-style-type: decimal;
+            color: #1E3246;
+            line-height: 25px;
+        }
+    }
+}
+.list{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:750px){
+    .tabs{
+        padding: 0px 20px;
+    }
+    .rules{
+        padding: 0px 20px;
+    }
+    .list{
+        padding: 0px 20px;
+        overflow-x: auto;
+    }
+}

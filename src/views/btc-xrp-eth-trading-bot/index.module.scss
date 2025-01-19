@@ -1,0 +1,2520 @@
+.component {
+    min-height: 100vh;
+    
+    a{
+        color: #d2a032;
+        &:visited{
+            color:#D2A032;
+        }
+    }
+    .banner {
+        background: #f9fafc;
+
+        &_box {
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 0;
+
+            .info {
+                .info1 {
+                    width: 428px;
+                    height: 55px;
+                    font-size: 42px;
+                    white-space: nowrap;
+                    font-weight: 500;
+                    color: #373C46;
+                    line-height: 55px;
+                    margin-bottom: 8px;
+                    margin-top: 81px;
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .info2 {
+                    width: 363px;
+                    height: 48px;
+                    font-size: 18px;
+
+                    font-weight: 500;
+                    color: #B0B9C3;
+                    line-height: 23px;
+                    margin-right: 15px;
+
+                    span {
+                        display: block;
+                        font-size: 18px;
+                        line-height: 23px;
+                    }
+                }
+
+                .info3 {
+                    margin-top: 24px;
+                    width: 180px;
+                    height: 56px;
+                    background: #EBB432;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 108px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #E6AA1E;
+                    }
+
+                    .btn {
+
+                        font-size: 20px;
+
+                        font-weight: 500;
+                        color: #191E28;
+
+                    }
+                }
+            }
+
+            .piccenter {
+                width: 436px;
+                height: 412px;
+                width: 387px;
+                height: 298px;
+                background: url('~@static/images/auto-invest/topcenter.png') no-repeat center center;
+                background-size: contain;
+
+            }
+
+            .piccenternotlogin {
+
+                width: 657px;
+                height: 380px;
+                background: url('~@static/images/auto-invest/topcenternotlogin.png') no-repeat center center;
+                background-size: contain;
+            }
+
+            .topinfo {
+                width: 448px;
+                height: 239px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                padding: 24px;
+
+                .l1 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 26px;
+
+                    .l1left {
+
+                        height: 23px;
+                        font-size: 18px;
+
+                        font-weight: 500;
+                        color: #373C46;
+                        line-height: 23px;
+                        position: relative;
+
+                    }
+
+                    .l1right {
+
+                        height: 20px;
+                        font-size: 13px;
+
+                        font-weight: 400;
+                        color: #E6AA1E;
+                        line-height: 20px;
+                        cursor: pointer;
+
+                        .more {
+                            display: flex;
+                            align-items: center;
+                            
+                            .more_icon {}
+                        }
+                    }
+                }
+
+                .l2 {
+                    .opi {
+                        width: 203px;
+                        font-weight: 500;
+                        font-size: 18px;
+
+                    }
+
+                    .pl {
+                        min-width: 90px;
+                        margin-right: 5px;
+                        font-size: 18px;
+
+                    }
+
+                    .datatitle {
+                        display: flex;
+                        
+                        font-size: 14px;
+
+                        font-weight: 500;
+                        color: #828C9B;
+                        line-height: 18px;
+                        margin-bottom: 8px;
+
+                        .opi {
+
+
+                            
+                            font-size: 14px;
+
+                            font-weight: 400;
+                            color: #828C9B;
+                            line-height: 18px;
+                        }
+
+                        .ongoing {
+                            position: relative;
+                            text-decoration: underline dotted;
+                            cursor: pointer;
+                            // &::after {
+                            //     content: "";
+                            //     position: absolute;
+                            //     bottom: 0;
+                            //     left: 0;
+                            //     width: 100%;
+                            //     border-bottom: 1px dashed #828C9B;; 
+                            //   }
+
+                            
+                            &:hover{
+                                .tipContent{
+                                    display: block;
+                                }
+                                
+                            }
+                        }
+                        .tipContent {
+                            display: none;
+                            width: 300px;
+                            padding: 10px;
+                            text-align: left;
+                            font-weight: 400;
+                            border-radius: 6px;
+                            background: #373c46;
+                            position: absolute;
+                            top: 30px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            z-index: 99;
+
+                            em {
+                                color: #fff;
+                                font-size: 12px;
+                                line-height: 18px;
+                                white-space: normal;
+                            }
+
+                            &::before {
+                                content: "";
+                                border-bottom: 10px solid #373c46;
+                                border-left: 10px solid transparent;
+                                border-right: 10px solid transparent;
+                                position: absolute;
+                                top: -9px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                        }
+                        .profit{
+                            text-decoration: underline dotted;
+                            cursor: pointer;
+                            position: relative;
+                            .tipContent {
+                                display: none;
+                                width: 300px;
+                                padding: 10px;
+                                text-align: left;
+                                font-weight: 400;
+                                border-radius: 6px;
+                                background: #373c46;
+                                position: absolute;
+                                top: 30px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                z-index: 99;
+
+                                em {
+                                    color: #fff;
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+
+                                &::before {
+                                    content: "";
+                                    border-bottom: 10px solid #373c46;
+                                    border-left: 10px solid transparent;
+                                    border-right: 10px solid transparent;
+                                    position: absolute;
+                                    top: -9px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                }
+                            }
+                            &:hover{
+                                .tipContent{
+                                    display: block;
+                                }
+                                
+                            }
+                        }
+                        .totalInvest{
+                            text-decoration: underline dotted;
+                            cursor: pointer;
+                            position: relative;
+                            // white-space: nowrap;
+                            // margin-right: 4px;
+                            
+
+                            &:hover{
+                                .tipContent{
+                                    display: block;
+                                }
+                            }
+                        }
+                        
+                        .totalPlan{
+                            text-decoration: underline dotted;
+                            cursor: pointer;
+                            position: relative;
+
+                            &:hover{
+                                .tipContent{
+                                    display: block;
+                                }
+                            }
+                        }
+
+                        .pl {
+                            font-size: 14px;
+                            white-space: nowrap;
+                        }
+                    }
+
+                    .dataview {
+                        display: flex;
+                        font-size: 18px;
+
+
+                        .opi {}
+
+                        
+
+                        .pl {}
+
+                        .icbox {
+                            display: flex;
+                            align-items: baseline;
+                            ;
+
+                            .plc {
+                                margin-right: 8px;
+                                align-items: baseline;
+                                font-weight: 500;
+                                font-size: 18px
+                            }
+                        }
+
+                        .chg {
+                            // font-size: 12px;
+                            font-weight: 500;
+
+                        }
+
+                    }
+                }
+
+                .l3 {
+                    margin-top: 37px;
+                }
+            }
+        }
+
+        &_slogan {}
+    }
+
+    .planBox {
+        .titlebox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+
+            .prevNext {
+                // position: absolute;
+                // right: 0;
+                // top:50%;
+                // transform: translateY(-50%);
+                // display: flex;
+
+                div {
+
+                    cursor: pointer;
+                }
+
+                .prev {
+                    width: 24px;
+                    height: 24px;
+                    background-image: url('~@static/images/auto-invest/left.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: inline-block;
+                    right: 50px;
+                    position: absolute;
+                }
+
+                .next {
+                    position: relative;
+                    width: 24px;
+                    height: 24px;
+                    background-image: url('~@static/images/auto-invest/left.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    transform: rotate(180deg);
+                    display: inline-block;
+                    right: 0px;
+                    position: absolute;
+
+                }
+            }
+        }
+
+        .plans {
+            width: 1200px;
+            // height: 279px;
+            z-index: 0;
+            position: relative;
+
+            .listbox {
+                // background-color: red;
+                width: 387px;
+                min-height: 279px;
+                background: #FFFFFF;
+                border-radius: 16px;
+                border: 1px solid #EBEDEF;
+                padding: 24px 24px 24px 24px;
+
+                .titlebox {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .titleboxl {
+
+                        height: 23px;
+                        font-size: 18px;
+
+                        font-weight: 500;
+                        color: #373C46;
+                        line-height: 23px;
+                        display: flex;
+                        font-size: 18px;
+                        .titlei{
+                            font-size: 18px;
+
+                        font-weight: 500;
+                        }
+
+                        .plani {
+                            margin-left: 8px;
+                            display: none;
+                            color: #F04B55;
+
+                            i {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .titleboxr {
+                        display: flex;
+                        font-size: 20px;
+
+                        .titleboxedit {
+                            cursor: pointer;
+                            margin-right: 16px;
+                            i{
+                                font-size: 20px;
+                            }
+                        }
+
+                        .titleboxview {
+                            cursor: pointer;
+                            i{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .coinactbox {
+                    margin-top: 9px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .imgs{
+                        img{
+                            margin-left: 0;
+                        }
+                    }
+
+
+                    .switch {
+                        width: 31px;
+                        height: 18px;
+                        background: #E6AA1E;
+                        border-radius: 30px;
+                        padding: 2px;
+                        display: flex;
+                        flex-direction: row-reverse;
+
+                        &.dis {
+                            background: #BEC6CD;
+                            display: flex;
+
+                            flex-direction: row;
+                        }
+
+                        .toogle {
+                            width: 14px;
+                            height: 14px;
+                            background: #FFFFFF;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                .plandatas {
+                    margin-top: 32px;
+
+                    .l3 {
+                        margin-top: 17px;
+                    }
+
+                    .actinfo {
+                        margin-top: 25px;
+                        // width: 69px;
+                        height: 18px;
+                        font-size: 14px;
+
+                        font-weight: 500;
+                        color: #BEC6CD;
+                        line-height: 18px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .datatitle {
+                        display: flex;
+
+                        // height: 18px;
+                        font-size: 14px;
+
+                        font-weight: 500;
+                        color: #828C9B;
+                        line-height: 18px;
+                        justify-content: space-between;
+
+                    }
+
+                    .dataview {
+                        margin-top: 6px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        height: 23px;
+                        font-size: 18px;
+
+                        font-weight: 500;
+                        color: #373C46;
+                        line-height: 23px;
+
+                        .incomeBox {
+                            display: flex;
+                            align-items: baseline;
+
+                            .income {
+                                margin-right: 5px;
+                                font-size: 18px;
+                                font-weight: 500;
+                            }
+                            .opichg{font-size: 14px;}
+
+
+                            .opi {
+                                font-size: 18px;
+                                font-weight: 500
+                            }
+                        }
+
+                        .pl {
+                            font-size: 18px;
+                            font-weight: 500
+                        }
+
+                        .opi {
+                            font-size: 18px;
+                            font-weight: 500
+                        }
+
+                    }
+                }
+
+                &.invalid {
+
+                    // .titleboxl{
+                    //     opacity: .5;
+                    // }
+                    .titlei {
+                        opacity: .5;
+                    }
+
+                    .titleboxl {
+                        .plani {
+                            display: block;
+                            position: relative;
+
+                            .tipContent {
+                                display: none;
+                                width: 180px;
+                                padding: 10px;
+                                text-align: left;
+                                font-weight: 400;
+                                border-radius: 6px;
+                                background: #373c46;
+                                position: absolute;
+                                top: 30px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                z-index: 99;
+
+                                em {
+                                    color: #fff;
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+
+                                &::before {
+                                    content: "";
+                                    border-bottom: 10px solid #373c46;
+                                    border-left: 10px solid transparent;
+                                    border-right: 10px solid transparent;
+                                    position: absolute;
+                                    top: -9px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                }
+                            }
+
+                            &:hover {
+                                .tipContent {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+
+                    .coinactbox {
+                        opacity: .5;
+                    }
+
+                    .plandatas {
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+
+        .toAdd {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+
+            .noData {
+                width: 135px;
+                height: 105px;
+
+                background-image: url('~@static/images/auto-invest/nodata.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+            .addDataBtn {
+                width: 112px;
+                height: 40px;
+                background-color: #EBB432;
+                border-radius: 5px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                font-weight: 400;
+                color: #191E28;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+
+
+    .process {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 1200px;
+        height: 154px;
+        background: linear-gradient(315deg, rgba(255,231,158,.5),rgba(255,249,220,05) 100%);
+        
+        border-radius: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 60px;
+        display: flex;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 370px;
+            height: 105px;
+            background-image: url('~@static/images/auto-invest/process/pt.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 42px;
+            top: 0;
+            opacity: .5;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 370px;
+            height: 106px;
+            background-image: url('~@static/images/auto-invest/process/pb.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            right: 15px;
+            bottom: 0;
+            opacity: .5;
+        }
+
+        // opacity: 0.53;
+        .inner {
+            width: 388px;
+            padding-top: 23px;
+            height: 100%;
+            margin-right: 24px;
+            position: relative;
+            z-index: 0;
+
+            .imgtop {
+                width: 30px;
+                height: 30px;
+                background: url('~@static/images/auto-invest/Deposit.png') no-repeat center center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            &.p2 {
+                .imgtop {
+                    background: url('~@static/images/auto-invest/process/p2.png') no-repeat center center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+            }
+
+            &.p3 {
+                .imgtop {
+                    background: url('~@static/images/auto-invest/process/p3.png') no-repeat center center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+            }
+
+
+
+            .infobox {
+                display: flex;
+                align-items: center;
+                // justify-content: space-between;
+                margin-top: 6px;
+                overflow:hidden;
+            }
+
+            .info {
+
+
+                height: 23px;
+                font-size: 18px;
+
+                font-weight: 500;
+                color: #373C46;
+                line-height: 23px;
+                white-space: nowrap;
+                &.infoCharge{
+                    color:#D2A032;
+                    cursor: pointer;
+                    &:hover{
+                        color:#EBB432;
+                    }
+                }
+            }
+
+            .line {
+                height: 1px;
+                border: 1px dashed rgba(235, 180, 50, .2);
+                width: 274px;
+
+                transform: scaleX(4);
+                transform-origin: top left;
+                width: 71px;
+                cursor: pointer;
+                margin-left:13px;
+            }
+
+            .desc {
+                margin-top: 14px;
+                width: 341px;
+                height: 18px;
+                font-size: 14px;
+
+                // font-weight: 500;
+                color: #D2A032;
+                color: #828C9B;
+                line-height: 18px;
+            }
+        }
+    }
+    .investPlans{
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+
+    .epbox {
+        display: flex;
+        width: 1200px;
+
+        .epinner {
+            // width: 293px;
+            height: 295px;
+            margin-right: 16px;
+        }
+
+        .epdata {
+            
+            width: 286px;
+            height: 295px;
+
+            &.labelbox{
+                .epdatatop{
+                    border-top-left-radius: 0px;
+                }
+            }
+
+            .epdatatop {
+                position: relative;
+                width: 286px;
+                height: 89px;
+                background: #373C46;
+                border-radius: 16px 16px 0px 0px;
+                padding: 20px 16px 14px 16px;
+                border-top-left-radius: 16px;
+
+                .epdl1 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .epdtitle {
+                        // width: 70px;
+                        height: 20px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #EBF0FA;
+                        line-height: 20px;
+                    }
+
+                    .epperson {
+                        display: flex;
+                        height: 18px;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #828C9B;
+                        line-height: 18px;
+                    }
+                }
+
+                .epdl2 {
+                    margin-top: 8px;
+
+                    // height: 20px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #B0B9C3;
+                    line-height: 15px;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    -webkit-line-clamp: 2; /* 显示两行 */
+                }
+
+                .epLabel {
+                    position: absolute;
+                    border-top-left-radius: 5px;
+                    left: -5px;
+                    top: -10px;
+                    min-width: 48px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    height: 19px;
+                    background: linear-gradient(265deg, #FF8E53 0%, #F04B55 100%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #FFFFFF;
+                    span{
+                        // width: 100px;
+                        white-space: nowrap;        
+                        overflow: hidden;        
+                        text-overflow: ellipsis;     
+                    }
+
+                    &::before {
+                        content: "";
+                        display: block;
+                        width: 5px;
+                        height: 5px;
+                        position: absolute;
+                        left: 0;
+                        bottom: -5px;
+                        background: #A13E44;
+                        border-bottom-left-radius: 2.5px;
+                    }
+
+                    &::after {
+                        content: "";
+                        display: block;
+                        right: -16px;
+                        width: 22px;
+                        top: -10px;
+                        height: 28px;
+                        background-image: url('~@static/images/auto-invest/hot.png');
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        position: absolute;
+                    }
+                }
+            }
+
+            .epdatabtm {
+                padding: 17px 16px;
+                padding-bottom: 0;
+                border: 1px solid #EBEDEF;
+                border-radius: 16px;
+                border-top-left-radius: unset;
+                border-top-right-radius: unset;
+                border-top: transparent 1px solid;
+
+                .chg {
+                    width: 133px;
+                    white-space: nowrap;
+                    height: 15px;
+                    font-size: 12px;
+
+                    font-weight: 500;
+                    color: #B0B9C3;
+                    line-height: 15px;
+                }
+
+                .chgdatas {
+                    margin-top: 8px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .data {
+
+                        height: 32px;
+                        font-size: 24px;
+
+                        font-weight: 500;
+                        
+                        line-height: 32px;
+                    }
+
+                    .view {
+                        width: 100px;
+                        height: 32px;
+                        margin-left: 30px;
+                    }
+                }
+
+                .coins {
+                    margin-top: 24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    position: relative;
+                    
+
+                    img {
+                        width: 25px;
+                        height: 25px;
+                        object-fit: cover;
+                    }
+
+                    .circleView{
+                        width: 25px;
+                        height: 25px;
+                        background: url('~@static/images/auto-invest/circle.png') no-repeat center center;
+                        background-size: contain;
+                        position: relative;
+                        cursor: pointer;
+                        &:hover {
+
+                            .moreData {
+                                display: block;
+                                ;
+                            }
+                        }
+                    }
+
+                    .detail {
+
+                        height: 18px;
+                        font-size: 14px;
+
+                        font-weight: 500;
+                        color: #D2A032;
+                        line-height: 18px;
+                        display: flex;
+                        cursor: pointer;
+                    }
+
+                    .moreData {
+                        display: none;
+                        position: absolute;
+                        width: 336px;
+                        
+                        background: #FFFFFF;
+                        box-shadow: 0px 4px 432px 0px #EBEDEF;
+                        border-radius: 8px;
+                        left: -243px;
+                        top: 40px;
+                        padding: 24px ;
+                        z-index: 10;
+
+                        .mdTitle {
+
+                            // height: 22px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #191E28;
+                            line-height: 22px;
+                            text-shadow: 0px 4px 432px #EBEDEF;
+                        }
+
+                        .chartCoins {
+                            margin-top: 20px;
+                            display: flex;
+                            // justify-content: space-between;
+
+                            .mdCoins {
+                                margin-left: 24px;
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                grid-auto-rows: 15px;
+                                gap: 16px;
+
+                                .mdCoinbox {
+                                    display: flex;
+                                    align-items: center;
+
+
+                                    font-size: 12px;
+
+                                    font-weight: 400;
+                                    color: #828C9B;
+
+                                    text-shadow: 0px 4px 432px #EBEDEF;
+
+                                    .colorName {
+                                        margin-left: 3px;
+                                        margin-right: 3px;
+                                    }
+                                }
+
+                                .mdCoin {
+                                    width: 9px;
+                                    height: 9px;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+
+                    }
+
+                    &:hover {
+
+                        .moreData {
+                            // display: block;
+                            
+                        }
+                    }
+                }
+
+                .btn {
+                    margin: 16px auto;
+                    width: 253px;
+                    height: 40px;
+                    background-color: rgba(235, 180, 50, 1);
+                    border-radius: 4px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    font-size: 14px;
+
+                    font-weight: 500;
+                    color: #191E28;
+                    &:hover{
+                        background-color: #E6AA1E;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .datadetail {
+        width: 1200px;
+
+        .Crypto {
+            width: 300px;
+            display: flex;
+            align-items: center;
+            padding-left: 17px;
+
+            .CryptoLogo {
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 8px;
+                    border-radius: 50%;
+                }
+            }
+            div{
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+        .data {
+            width: 500px;
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+        }
+
+        .rate {
+            width: 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .action {
+            width: 200px;
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            padding-right: 16px;
+        }
+
+        .datadetailHead {
+            display: flex;
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+
+            font-weight: 400;
+            color: #B0B9C3;
+            // line-height: 18px;
+            .interestRate{
+                margin-left: 10px;
+                position: relative;
+                .tipContent {
+                    display: none;
+                    width: 300px;
+                    padding: 10px;
+                    text-align: left;
+                    font-weight: 400;
+                    border-radius: 6px;
+                    background: #373c46;
+                    position: absolute;
+                    top: 30px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 99;
+
+                    em {
+                        color: #fff;
+                        font-size: 12px;
+                        line-height: 18px;
+                        white-space: normal;
+                        font-family: BitruePro;
+                    }
+
+                    &::before {
+                        content: "";
+                        border-bottom: 10px solid #373c46;
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        position: absolute;
+                        top: -9px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                &:hover{
+                    .tipContent{
+                        display: block;
+                    }
+                }
+
+            }
+        }
+
+        .content {
+            .datadetailview {
+                display: flex;
+                height: 64px;
+
+                &:hover {
+                    background: #fafbfd;
+                }
+
+                // cursor: pointer;
+
+
+
+                .Crypto {
+                    // width: 300px;
+                    // width: 30px;
+
+                    font-size: 16px;
+
+                    font-weight: 500;
+                    color: #363C47;
+
+
+                }
+
+                .data {
+
+
+                    .dataPer {
+
+                        height: 23px;
+                        font-size: 18px;
+                        width: 80px;
+                        font-weight: 500;
+
+                        line-height: 23px;
+                        margin-right: 24px;
+                    }
+
+                    .noData {
+                        color: #B0B9C3;
+                    }
+
+                    .datam {
+                        width: 64px;
+                        height: 32px;
+                        border-radius: 4px;
+                        border: 1px solid #BEC6CD;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 24px;
+                        cursor: pointer;
+
+                        &.enable {
+
+                            border: 1px solid #373C46;
+                        }
+
+                        &.hidden {
+                            opacity: 0;
+                            pointer-events: none;
+                            color: transparent;
+                        }
+                    }
+
+                }
+
+                .rate {
+                    width: 200px;
+                    font-size: 18px;
+                    color:#363C47;
+                }
+
+                .action {
+                    width: 200px;
+
+                    .actBtn {
+                        width: 95px;
+                        height: 40px;
+                        background: #EBB432;
+                        border-radius: 6px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #191E28;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: #E6AA1E;
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+
+    .modalnotice {
+
+        .noticeConBox{
+            max-height: 340px;
+            overflow-y: auto;
+            
+            margin: 0 auto;
+            &::-webkit-scrollbar {
+                width: 6px;
+                margin-right: 2px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background-color: transparent; 
+                border: none;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #7d7d7d;
+                border-radius: 3px;
+              }
+        }
+        .noticeCon {
+            margin: 30px auto 24px auto;
+            width: 400px;
+            .noticeline{
+                width: 400px;
+            }
+            
+        }
+
+        .noticeline {
+            display: flex;
+
+
+            font-size: 14px;
+
+            font-weight: 400;
+            color: #373C46;
+            line-height: 22px;
+            margin-bottom: 8px;
+            width: 400px;
+            div{
+                // width: 500px;
+                // margin: 0 auto;
+            }
+
+            &:nth-last-child(1) {
+                margin-bottom: 0;
+            }
+
+            .noticeIndex {}
+
+            .noticeText {}
+        }
+
+        .noticebtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+
+            .confirm {
+                background-color: #EBB432;
+                width: 400px;
+                height: 40px;
+                font-size: 14px;
+
+                font-weight: 500;
+                color: #191E28;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+            }
+
+            .think {
+                background-color: #EBB432;
+                width: 200px;
+                height: 40px;
+                font-size: 14px;
+
+                font-weight: 500;
+                color: #191E28;
+                display: flex;
+                border-radius: 6px;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+
+            .ter {
+                width: 200px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 14px;
+                background: #EBEDEF;
+                border-color: #EBB432;
+                color: #191E28;
+                border-radius: 6px;
+                cursor: pointer;
+                font-weight: 500;
+
+            }
+        }
+
+    }
+
+    .modalEdit {
+        // width: 480px;
+        // overflow-x: hidden;
+        .planScrollBox{
+            // padding-left: 40px;
+            // padding-right: 40px;
+            
+            max-height: 480px;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+            &::-webkit-scrollbar {
+                width: 6px;
+                margin-right: 2px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background-color: transparent; 
+                border: none;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #7d7d7d;
+                border-radius: 3px;
+              }
+        }
+
+        .planScroll {
+            // padding-left: 40px;
+            // padding-right: 40px;
+            // min-height: 450px;
+            max-height: 480px;
+            width: 400px;
+            // overflow-y: scroll;
+            
+
+        }
+
+        .planHead {
+            display: flex;
+            width: 347px;
+            padding-top: 25px;
+            // height: 44px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            div{
+                font-weight: 500;
+            }
+            .planHeadRight{
+                position: relative;
+                text-decoration:underline dotted;
+                cursor: pointer;
+                cursor: pointer;
+                
+                .tipContent {
+                    display: none;
+                    width: 200px;
+                    padding: 10px;
+                    text-align: left;
+                    font-weight: 400;
+                    border-radius: 6px;
+                    background: #373c46;
+                    position: absolute;
+                    top: 30px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 99;
+
+                    em {
+                        color: #fff;
+                        font-size: 12px;
+                        line-height: 18px;
+                        white-space: normal;
+                    }
+
+                    &::before {
+                        content: "";
+                        border-bottom: 10px solid #373c46;
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        position: absolute;
+                        top: -9px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                &:hover{
+                    .tipContent{
+                        display: block;
+                    }
+                    
+                }
+            }
+        }
+
+        .planBody {
+            width: 400px;
+
+            .planlineLeft {
+                width: 347px;
+                height: 44px;
+                background: #F7F8F9;
+                border-radius: 6px;
+
+                display: flex;
+                align-items: center;
+
+                .planCoin {
+                    width: 72px;
+                    display: flex;
+                    align-items: center;
+
+                    .imgs {
+                        margin-left: 12px;
+                        margin-right: 8px;
+
+                        img {
+                            width: 25px;
+                            height: 25px;
+                            object-fit: cover;
+                            border-radius: 50%;
+                            border: 1px solid #EBEDEF;
+                        }
+
+                    }
+
+                    .CoinName {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                .planinp {
+                    flex: 1;
+                    padding-right: 13px;
+                    text-align: right;
+                    display: flex;
+                    align-items: center;
+                    text-align: right;
+
+                    .planinpInn {
+                        display: inline-block;
+                        text-align: right;
+                        padding-right: 8px;
+
+                    }
+
+                }
+
+                .planRate {
+                    width: 78px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row-reverse;
+                    color: rgba(10, 190, 130, .6);
+                    padding-right: 21px;
+                    height: 20px;
+                    border-left: 1px solid #EBEDEF;
+                }
+            }
+
+            .planlineRight {
+                margin-left: 9px;
+                width: 44px;
+                height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F7F8F9;
+                border-radius: 6px;
+                cursor: pointer;
+
+                .delete {
+                    width: 18px;
+                    height: 18px;
+                    background: url('~@static/images/auto-invest/delete.png') no-repeat center center;
+                    background-size: contain;
+                }
+
+                &.deleteHide {
+                    display: none;
+                }
+
+                &.deleteOpacity {
+                    opacity: .5;
+                    cursor: not-allowed;
+                    // pointer-events: none;
+                }
+            }
+
+            .planLine {
+                height: 44px;
+                margin-bottom: 8px;
+                display: flex;
+
+
+            }
+        }
+
+        .proportionTip {
+
+            height: 17px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #F04B55;
+            line-height: 17px;
+        }
+
+        .addCoin {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 16px auto 24px auto;
+            width: 146px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #EBB432;
+            font-size: 14px;
+            font-weight: 500;
+            color: #D2A032;
+            cursor: pointer;
+
+            i {
+                font-size: 12px;
+                margin-right: 4px;
+            }
+        }
+
+        .cycletitle {
+            text-align: left;
+            height: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #373C46;
+            line-height: 20px;
+            margin-bottom: 8px;
+        }
+
+        .cycleData {
+            display: grid;
+            grid-template-columns: repeat(4, 94px);
+            /* 创建4列，每列宽度为94px */
+            gap: 10px;
+            /* 可选的，添加列之间的间距 */
+        }
+
+        .cycled {
+            width: 94px;
+            height: 32px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: 1px solid #EBEDEF;
+
+            &.checked {
+                border: 1px solid #E6AA1E;
+                font-weight: 500;
+                color: #E6AA1E;
+            }
+
+        }
+
+        .cycleAT {
+            margin-top: 24px;
+            height: 20px;
+            font-size: 14px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #373C46;
+            line-height: 20px;
+        }
+
+        .inputbox {
+            width: 100%;
+            height: 44px;
+            background: #F7F8F9;
+            border-radius: 6px;
+            position: relative;
+
+            .inputinner {
+                padding-left: 12px;
+            }
+
+            .inputcs {
+                display: flex;
+                align-items: center;
+                position: absolute;
+                right: 12px;
+                top: 50%;
+                transform: translateY(-50%);
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 9px;
+                }
+            }
+        }
+
+        .blance {
+            margin-top: 7px;
+            display: flex;
+            justify-content: space-between;
+            height: 20px;
+            // margin-bottom: 32px;
+
+            .blancedetailbox {
+                display: flex;
+                align-items: center;
+
+                &name {
+                    /* 样式 */
+
+
+                    font-size: 12px;
+
+                    font-weight: 400;
+                    color: #B0B9C3;
+
+                    margin-right: 8px;
+                }
+
+                &no {
+                    width: 68px;
+
+                    font-size: 12px;
+
+                    font-weight: 400;
+                    color: #383C45;
+
+                }
+            }
+
+            .tocharge {
+                display: flex;
+
+                display: flex;
+                align-items: center;
+                font-size: 12px;
+
+                font-weight: 400;
+                color: #D2A032;
+
+
+                .chargetext {
+                    /* 样式 */
+                    cursor: pointer;
+                }
+
+                i {
+                    /* 样式 */
+                }
+            }
+        }
+
+        .tipbox {
+            padding-bottom: 33px;
+            height: 1px;
+        }
+
+        .checkbox {
+            display: flex;
+            align-items: center;
+            width: 400px;
+
+            .agree {
+                margin-left: 7px;
+                margin-right: 5px;
+                font-size: 12px;
+            }
+
+            .toview {
+                // width: 60px;
+                // height: 17px;
+                font-size: 12px;
+
+                font-weight: 400;
+                color: #D2A032;
+                // line-height: 17px;
+                cursor: pointer;
+            }
+
+            :global(.icon-select) {
+                color: #ebb432;
+            }
+
+            :global(.icon-unchecked) {
+                color: #B0B9C3;
+            }
+
+        }
+        
+        .modalbtm{
+            padding-top: 10px;
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        .planbtn {
+            display: flex;
+            margin-top: 8px;
+            margin-bottom: 30px;
+            justify-content: center;
+
+
+            .btn {
+                width: 193px;
+                height: 44px;
+                border-radius: 6px;
+
+                cursor: pointer;
+                font-size: 16px;
+
+                font-weight: 500;
+                color: #191E28;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &.disabled {
+                    opacity: .5;
+                    pointer-events: none;
+                }
+
+                &.w400 {
+                    width: 400px;
+                }
+            }
+
+
+
+            .ter {
+                margin-right: 14px;
+                background: #EBEDEF;
+
+            }
+
+            .confirm {
+                background-color: #EBB432;
+            }
+        }
+
+
+
+    }
+
+    .modalView {
+        width: 580px;
+
+        .planScroll {
+            padding-left: 40px;
+            padding-right: 40px;
+            min-height: 450px;
+            max-height: 500px;
+            overflow-y: auto;
+            padding-top: 24px;
+            overflow-x: hidden;
+            width: 400px;
+
+
+            &::-webkit-scrollbar {
+                width: 6px;
+                margin-right: 2px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background-color: transparent; 
+                border: none;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #7d7d7d;
+                border-radius: 3px;
+              }
+            
+            &.editScroll{
+                width: unset;
+
+                
+            }
+
+            .l1 {
+                display: flex;
+                justify-content: space-between;
+
+                
+                font-size: 14px;
+
+                font-weight: 400;
+                color: #828C9B;
+                line-height: 18px;
+
+            }
+
+
+
+            .l2 {
+                display: flex;
+                justify-content: space-between;
+                
+                font-size: 14px;
+                font-weight: 500;
+                margin-top: 8px;
+
+                line-height: 18px;
+
+                .plData {
+                    display: flex;
+                    font-weight: 500;
+                    // justify-content: space-between;
+                    .plDataLeft {
+                        margin-right: 4px;
+                        font-weight: 500;
+                    }
+
+                    .plDataRight {
+                        font-weight: 500;
+                    }
+
+
+                }
+                .totalInvest{
+                    font-weight: 500;
+                }
+
+                .investRounds {
+                    display: flex;
+                    justify-content: flex-end;
+                    font-weight: 500;
+                    cursor: pointer;
+
+
+                }
+
+
+            }
+
+            .l1,
+            .l2 {
+                .inner {
+                    flex: 1;
+                    
+
+                    .imgs {
+                        text-align: right;
+                        display: inline-block;
+                    }
+
+                    i {
+                        height: 25px;
+                        display: inline-flex;
+                        align-items: center;
+                        color: #B0B9C3;
+                    }
+                }
+
+                div {
+                    &:nth-child(1) {
+                        text-align: left;
+                    }
+
+                    &:nth-child(2) {
+                        text-align: center;
+                    }
+
+                    &:nth-child(3) {
+                        text-align: right;
+                    }
+                }
+            }
+
+            .profitLoss{
+                position: relative;
+                text-decoration:underline dotted;
+                cursor: pointer;
+                .tipContent {
+                    display: none;
+                    width: 200px;
+                    padding: 10px;
+                    text-align: left;
+                    font-weight: 400;
+                    border-radius: 6px;
+                    background: #373c46;
+                    position: absolute;
+                    top: 30px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 99;
+
+                    em {
+                        color: #fff;
+                        font-size: 12px;
+                        line-height: 18px;
+                        white-space: normal;
+                    }
+
+                    &::before {
+                        content: "";
+                        border-bottom: 10px solid #373c46;
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        position: absolute;
+                        top: -9px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                &:hover{
+                    .tipContent{
+                        display: block;
+                    }
+                    
+                }
+            }
+
+            .mt24 {
+                margin-top: 24px;
+            }
+
+            .dataAlloc {
+                margin-bottom: 8px;
+                margin-top: 32px;
+                font-weight: 500;
+            }
+
+            .dataAllocView {
+                width: 100%;
+                font-weight: 500;
+
+                .container {
+                    width: 100%;
+                    display: flex;
+
+
+                }
+            }
+
+
+
+            .fcpContainer {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                gap: 16px;
+                /* 间隔大小，根据需要调整 */
+                margin-top: 11px;
+
+                .coinbox {
+                    display: flex;
+                    align-items: center;
+                    color: #828C9B;
+
+                    .fcpCoin {
+                        width: 9px;
+                        height: 9px;
+                        border-radius: 50%;
+                        margin-right: 8px;
+                    }
+
+                    .colorName {
+
+                        font-size: 12px;
+                        font-weight: 400;
+                        margin-right: 2px;
+
+                    }
+                    .percent{
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .profitDetail {
+                margin-bottom: 8px;
+                margin-top: 33px;
+                font-weight: 500;
+            }
+
+            .profitList {
+                .pdBox {
+                    width: 500px;
+                    background: #F7F8F9;
+                    border-radius: 8px;
+                    padding: 16px;
+                    margin-bottom: 8px;
+                    color: #828C9B;
+
+                    .pdCont {
+                        height: 18px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 8px;
+                        .prop{
+                            color:#373C46;
+                            font-weight: 500;
+                        }
+                        .contRight{
+                            color: #373A46;
+                            &.up{
+                                color:#0ABE82
+                            }
+                            &.down {
+                            color: #f75151;
+                        }
+                        }
+                    }
+
+                    .imgbox {
+                        display: flex;
+                        align-items: center;
+
+                        .coinName {
+
+
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #373C46;
+
+                        }
+                    }
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 8px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+
+        }
+
+        .planbtn {
+            display: flex;
+            margin-top: 8px;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            margin-right: 40px;
+
+            .ter {
+                margin-right: 14px;
+                background: #EBEDEF;
+
+            }
+
+            .confirm {
+                background-color: #EBB432;
+            }
+
+            .btn {
+                width: 233px;
+                height: 44px;
+                border-radius: 6px;
+
+                cursor: pointer;
+                font-size: 16px;
+
+                font-weight: 500;
+                color: #191E28;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &.disabled {
+                    opacity: .5;
+                    pointer-events: none;
+                }
+
+                &.w400 {
+                    width: 400px;
+                }
+            }
+        }
+    }
+
+    $colors: #5B8FF9, #FF99C3, #269A99, #FF9D4D, #9270CA, #6DC8EC, #E8684A, #F6BD16, #5D7092, #5B8FF9;
+
+    @for $i from 1 through 10 {
+        .coinColor#{$i} {
+            background-color: nth($colors, $i);
+            height: 16px;
+        }
+    }
+
+    .imgs {
+        height: 25px;
+        min-width: 25px;
+
+        img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+            margin-left: -10px;
+            border-radius: 50%;
+            background: #fff;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .up {
+        color: #0ABE82;
+    }
+
+    .down {
+        color: #f75151;
+    }
+
+    .zero {
+        color: #B0B9C3;
+    }
+
+    .com {
+        .opt {
+            background-color: transparent;
+
+            img {
+                margin-right: 5px;
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+            }
+        }
+
+        .selList {
+            ul {
+                li {
+                    div {
+                        img {
+                            margin-right: 6px;
+                            border-radius: 50%;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        margin: 0;
+    }
+
+    input[type="number"] {
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        -o-appearance: textfield;
+        -ms-appearance: textfield;
+        appearance: textfield;
+    }
+
+    input::placeholder {
+        color: #B0B9C3;
+    }
+
+    .history-empty{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #B0B9C3;
+        i{
+            margin-right: 10px;
+        }
+    }
+
+    .hasmore {
+        width: 100%;
+        height: 64px;
+
+        .more {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            height: 18px;
+            font-size: 14px;
+
+            font-weight: 500;
+            color: #D2A032;
+            line-height: 18px;
+        }
+    }
+
+
+
+
+
+    h2 {
+        margin-top: 60px;
+        color: #141928;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+
+    .rewards {
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+        ul {
+            li {
+                margin-right: 130px;
+                display: inline-block;
+
+                p {
+                    color: #1E3246;
+                    font-size: 30px;
+                    margin-bottom: 8px;
+
+                    &.green {
+                        color: #00BF9C;
+                    }
+                }
+
+                span {
+                    color: #828CA0;
+                    font-size: 14px;
+                }
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .list {
+        margin-top: 20px;
+
+        table {
+            width: 100%;
+
+            tr {
+                border-top: 1px solid #EEEEEE;
+
+                &:hover {
+                    box-shadow: 0px 0px 20px 0px rgba(235, 240, 245, 0.5);
+                }
+
+                td {
+                    padding: 30px 0px;
+
+                    p {
+                        font-size: 18px;
+                        color: #223144;
+                        line-height: 28px;
+                        margin-bottom: 10px;
+                    }
+
+                    span {
+                        color: #828CA0;
+                    }
+
+                    a {
+                        display: inline-block;
+                        width: 78px;
+                        line-height: 40px;
+                        text-align: center;
+                        background: #f2bc22;
+                        border-radius: 4px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background: #e6aa1e;
+                        }
+                    }
+
+                    &:first-of-type {
+                        padding-left: 40px;
+                        color: #141928;
+                        font-size: 18px;
+                        font-weight: 500;
+
+                        img {
+                            border-radius: 50%;
+                            margin-right: 5px;
+                        }
+                    }
+
+                    &:last-of-type {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modala {
+    @media screen and (max-width: 750px) {
+        .component{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .modalbox {
+            
+    
+            width: 480px;
+            left: 50%;
+            margin-left: -240px;
+        }
+    }
+    .modalbox {
+        top: 50%;
+        transform: translateY(-50%);
+
+        // width: 100%;
+        .modalbtnok {
+            width: 300px;
+        }
+
+        div {
+            &:nth-child(1) {
+                // padding: 20px;
+            }
+        }
+    }
+
+    .modalViewBox {
+        width: 580px;
+        top: 50%;
+        left: 50%;
+        margin-left: unset;
+        transform: translate(-50%, -50%);
+
+        .noticeCon{
+            width: 500px;
+        }
+
+       
+
+    } 
+    .modalTerBox{
+        width: 480px;
+        .noticeCon{
+            width: 400px;
+        }
+    }
+    .modalViewHeader{
+            height: 56px;
+            padding: 18px 20px;
+    
+    border-bottom: 1px solid #F7F8F9;
+        }
+
+}
+
+.tp {
+    border-color: red;
+
+    :global(&.rc-tooltip-placement-right) {
+        :global(.rc-tooltip-arrow) {
+            border-right-color: pink;
+        }
+    }
+
+
+
+}
+
+
+@media screen and (max-width:750px) {
+    .component {
+        .banner1 {
+            background: #090c10;
+
+            &_box {
+                height: auto;
+                display: block;
+                background: none;
+            }
+
+            &_slogan {
+                padding: 50px 0px;
+                text-align: center;
+
+                h1 {
+                    color: #e6aa1e;
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+
+                h2 {
+                    width: auto;
+                    margin-top: 10px;
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        h2 {
+            padding: 0px 20px;
+        }
+
+
+    }
+}

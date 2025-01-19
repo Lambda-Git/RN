@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Precio | {{coinName}} Precio, capitalización de mercado, mercados | Biverdad",
+        "keywords":"{{coinName}} Precio, {{coinFullName}} Precio, {{coinName}} a USD, {{coinName}} Valor",
+        "description":"Vea el precio {{coinFullName}} en vivo para realizar un seguimiento de los cambios de precios en tiempo real. Siga los últimos datos del mercado y análisis sobre Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Precio, tokens apalancados, ETF criptográficos, mercados | Biverdad",
+        "etfKeywords":"{{coinName}} Precio, tokens apalancados, ETF criptográficos, mercados, Bitrue Exchange",
+        "etfDescription":"Fichas apalancadas de Bitrue: un tipo de producto derivado que le brinda exposición apalancada al activo subyacente. Disfrute de un mayor apalancamiento sin riesgo de liquidación."
+    },
+    "title":"Precio criptográfico",
+    "coinPrice":"{{coinFullName}} Precio",
+    "BasicInfo":"{{coinName}} Información de mercado",
+    "UnderlyingAsset":"Activo subyacente",
+    "NetValue":"Valor neto",
+    "DailyManagementFee":"Tarifa de gestión diaria",
+    "relatedLinks":"{{coinName}} Enlaces relacionados",
+    "MarketCap":"Tapa del mercado",
+    "rank":"Rango",
+    "CirculatingSupply":"Suministro circulante",
+    "totalSupply":"Oferta total",
+    "MaximumSupply":"Suministro máximo",
+    "OfficialWebsite":"Página web oficial",
+    "explorer":"Explorador",
+    "markets":"{{coinName}} Precio en vivo",
+    "24HVolume":"Volumen 24H",
+    "coinIntroduction":"Acerca de {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Evaluación de seguridad",
+        "HighlightsAlerts":"Destacados y alertas",
+        "thirdParty":"La calificación la proporciona un sitio de terceros, indicando la situación del proyecto de inversión.",
+        "ViewMore":"Ver más",
+        "ViewLess":"Ver menos",
+        "DataFrom":"datos de",
+        "Highlights":{
+            "audit_history":"Auditorías de seguridad disponibles",
+            "coderepo_health":"El estado del repositorio de código está en excelentes condiciones.",
+            "bug_bounty":"Admite el programa continuo de recompensas por errores",
+            "team_identity":"Los miembros del equipo central son identificables.",
+            "kyc":"El equipo ha pasado con éxito la verificación KYC",
+            "twitter_follower":"El número de seguidores de Twitter/X ocupa el primer lugar {{data}}",
+            "market_cap":"La capitalización de mercado ocupa el primer lugar {{data}}",
+            "trading_volume":"El volumen de operaciones diario ocupa el primer lugar {{data}}",
+            "token_activity":"Número de MAU clasificados entre los primeros {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Se requiere una evaluación adicional de las auditorías de seguridad",
+            "coderepo_health":"La salud del repositorio de código está por debajo del promedio",
+            "team_identity":"Los miembros del equipo central son anónimos",
+            "twitter_closure":"La cuenta Twitter/X del proyecto fue cerrada o suspendida",
+            "price_slippage":"Deslizamiento de precios detectado en los últimos tres meses"
+        }
+    }
+}

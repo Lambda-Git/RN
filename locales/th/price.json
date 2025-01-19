@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} ราคา | {{coinName}} ราคา มูลค่าตลาด ตลาด | บิตทรู",
+        "keywords":"{{coinName}} ราคา, {{coinFullName}} ราคา, {{coinName}} ถึง USD, {{coinName}} มูลค่า",
+        "description":"ดูราคาปัจจุบัน {{coinFullName}} เพื่อติดตามการเปลี่ยนแปลงราคาแบบเรียลไทม์ ติดตามข้อมูลตลาดล่าสุด การวิเคราะห์บน Bitrue Crypto Exchange",
+        "etfTitle":"{{coinName}} ราคา, โทเค็นเลเวอเรจ, Crypto ETF, ตลาด | บิตทรู",
+        "etfKeywords":"{{coinName}} ราคา, โทเค็นเลเวอเรจ, Crypto ETF, ตลาด, การแลกเปลี่ยน Bitrue",
+        "etfDescription":"Bitrue Leveraged Tokens - ผลิตภัณฑ์อนุพันธ์ประเภทหนึ่งที่ให้คุณใช้ประโยชน์จากสินทรัพย์อ้างอิงได้ เพลิดเพลินไปกับเลเวอเรจที่เพิ่มขึ้นโดยไม่ต้องเสี่ยงต่อการชำระบัญชี"
+    },
+    "title":"ราคาสกุลเงินดิจิทัล",
+    "coinPrice":"{{coinFullName}} ราคา",
+    "BasicInfo":"{{coinName}} ข้อมูลการตลาด",
+    "UnderlyingAsset":"สินทรัพย์อ้างอิง",
+    "NetValue":"มูลค่าสุทธิ",
+    "DailyManagementFee":"ค่าธรรมเนียมการจัดการรายวัน",
+    "relatedLinks":"{{coinName}} ลิงก์ที่เกี่ยวข้อง",
+    "MarketCap":"มูลค่าตลาด",
+    "rank":"อันดับ",
+    "CirculatingSupply":"อุปทานหมุนเวียน",
+    "totalSupply":"อุปทานทั้งหมด",
+    "MaximumSupply":"อุปทานสูงสุด",
+    "OfficialWebsite":"เว็บไซต์อย่างเป็นทางการ",
+    "explorer":"สำรวจ",
+    "markets":"{{coinName}} ราคาปัจจุบัน",
+    "24HVolume":"ปริมาณ 24 ชม",
+    "coinIntroduction":"เกี่ยวกับ {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"การประเมินความปลอดภัย",
+        "HighlightsAlerts":"ไฮไลท์และการแจ้งเตือน",
+        "thirdParty":"การให้คะแนนจัดทำโดยไซต์บุคคลที่สาม ซึ่งระบุถึงสถานการณ์ของโครงการลงทุน",
+        "ViewMore":"ดูเพิ่มเติม",
+        "ViewLess":"ดูน้อยลง",
+        "DataFrom":"ข้อมูลจาก",
+        "Highlights":{
+            "audit_history":"มีการตรวจสอบความปลอดภัย",
+            "coderepo_health":"ความสมบูรณ์ของรหัส repo อยู่ในสภาพดีเยี่ยม",
+            "bug_bounty":"รองรับโปรแกรมรางวัลบั๊กที่กำลังดำเนินอยู่",
+            "team_identity":"สามารถระบุสมาชิกในทีมหลักได้",
+            "kyc":"ทีมงานผ่านการตรวจสอบ KYC เรียบร้อยแล้ว",
+            "twitter_follower":"จำนวนผู้ติดตาม Twitter/X อยู่ในอันดับที่ {{data}}",
+            "market_cap":"มูลค่าตลาดอยู่ในอันดับต้นๆ {{data}}",
+            "trading_volume":"ปริมาณการซื้อขายรายวันอยู่ในอันดับที่ {{data}}",
+            "token_activity":"จำนวน MAU อยู่ในอันดับสูงสุด {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"ต้องมีการประเมินการตรวจสอบความปลอดภัยเพิ่มเติม",
+            "coderepo_health":"ความสมบูรณ์ของรหัส repo ต่ำกว่าค่าเฉลี่ย",
+            "team_identity":"สมาชิกในทีมหลักจะไม่เปิดเผยชื่อ",
+            "twitter_closure":"บัญชี Twitter/X ของโปรเจ็กต์ถูกปิดหรือระงับ",
+            "price_slippage":"การเคลื่อนตัวของราคาที่ตรวจพบภายในสามเดือนที่ผ่านมา"
+        }
+    }
+}

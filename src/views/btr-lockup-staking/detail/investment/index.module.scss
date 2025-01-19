@@ -1,0 +1,177 @@
+.increase{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 30px 5px rgba(68,90,113,.1);
+    border-radius: 8px;
+    &_notice{
+        width: 200px;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: url('~@static/images/flexible-staking/detail-raise.png') no-repeat top left;
+        background-size: cover;
+        &:after{
+            content: '';
+            position: absolute;
+            top: -4px;
+            left: -3px;
+            width: 65px;
+            height: 64px;
+            background: url('~@static/images/flexible-staking/detail-raise-hot.png') no-repeat top left;
+        }
+        p{
+            padding: 0px 20px;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 18px;
+            color: #FFF;
+        }
+    }
+    &_invest{
+        flex: 1;
+        padding: 20px 40px 0px;
+        &_top{
+            display: flex;
+        }
+        &_input{
+            width: 480px;
+            position: relative;
+            input{
+                width: 100%;
+                padding: 0 20px;
+                height: 40px;
+                font-weight: 400;
+                color: #1e3246;
+                border-radius: 2px;
+                border: 1px solid #d2d7dc;
+                &::placeholder{
+                    color: #D2D7DC;
+                }
+                &:focus{
+                    border: 1px solid #e6aa1e;
+                }
+            }
+            span{
+                position: absolute;
+                top: 13px;
+                right: 20px;
+                color: #9BA3B3;
+                i{
+                    margin-left: 10px;
+                    padding-left: 10px;
+                    border-left: 1px solid #DBE0EA;
+                    color: #1E3246;
+                    cursor: pointer;
+                    &:hover{
+                        color: #E6AA1E;
+                    }
+                }
+            }
+        }
+        &_error{
+            margin-top: 5px;
+            color: red;
+        }
+        &_calc{
+            display: flex;
+            justify-content: space-between;
+            line-height: 25px;
+            em{
+                color: #9ba3b3;
+            }
+        }
+        &_btn{
+            display: inline-block;
+            margin-left: 20px;
+            min-width: 180px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            color: #1e3246;
+            background: #f2bc22;
+            border-radius: 2px;
+            cursor: pointer;
+            &:hover{
+                background: #eab13f;
+            }
+        }
+        &_bottom{
+            margin-top: 5px;
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+            height: 120px;
+            overflow-y: auto;
+            display: flex;
+            justify-content: space-between;
+            ol{
+                padding-left: 20px;
+                li{
+                    list-style-type: decimal;
+                    color: #1E3246;
+                    line-height: 22px;
+                }
+            }
+            a{
+                min-width: 120px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                background: #F2BC22;
+                border-radius: 2px;
+                color: #1e3246;
+                &:hover{
+                    background: #eab13f;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .increase{
+        display: block;
+        margin: 20px 20px 0px;
+        &_notice{
+            display: none;
+        }
+        &_invest{
+            padding: 10px 20px;
+            &_top{
+                display: block;
+            }
+            &_input{
+                width: 100%;
+                input{
+                    padding: 0px 10px;
+                    &::placeholder{
+                        font-size: 12px;
+                    }
+                }
+                span{
+                    top: 15px;
+                    right: 10px;
+                    font-size: 12px;
+                }
+            }
+            &_calc{
+                display: block;
+            }
+            &_btn{
+                margin-left: 0;
+                width: 100%;
+            }
+            &_bottom{
+                margin-top: 20px;
+                padding-top: 20px;
+                display: block;
+                a{
+                    display: block;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

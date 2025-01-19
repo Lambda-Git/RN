@@ -1,0 +1,53 @@
+{
+    "seo":{
+        "title":"{{coinFullName}} Prix | {{coinName}} Prix, capitalisation boursière, marchés | Bitrue",
+        "keywords":"{{coinName}} Prix, {{coinFullName}} Prix, {{coinName}} en USD, {{coinName}} Valeur",
+        "description":"Consultez le prix {{coinFullName}} en direct pour suivre les changements de prix en temps réel. Suivez les dernières données du marché et analyses sur Bitrue Crypto Exchange.",
+        "etfTitle":"{{coinName}} Prix, jetons à effet de levier, ETF crypto, marchés | Bitrue",
+        "etfKeywords":"{{coinName}} Prix, jetons à effet de levier, ETF crypto, marchés, Bitrue Exchange",
+        "etfDescription":"Bitrue Leveraged Tokens - Un type de produit dérivé qui vous offre une exposition à effet de levier à l'actif sous-jacent. Bénéficiez d’un effet de levier accru sans risque de liquidation."
+    },
+    "title":"Prix des cryptomonnaies",
+    "coinPrice":"{{coinFullName}} Prix",
+    "BasicInfo":"{{coinName}} Information du marché",
+    "UnderlyingAsset":"Actif sous-jacent",
+    "NetValue":"Valeur nette",
+    "DailyManagementFee":"Frais de gestion quotidiens",
+    "relatedLinks":"{{coinName}} Liens connexes",
+    "MarketCap":"Capitalisation boursière",
+    "rank":"Rang",
+    "CirculatingSupply":"Approvisionnement en circulation",
+    "totalSupply":"Offre totale",
+    "MaximumSupply":"Offre maximale",
+    "OfficialWebsite":"Site officiel",
+    "explorer":"Explorateur",
+    "markets":"{{coinName}} Prix en direct",
+    "24HVolume":"Volume 24H",
+    "coinIntroduction":"À propos de {{coinFullName}} ({{coinName}})",
+    "CertikInfoVo":{
+        "SaveEvalue":"Évaluation de la sécurité",
+        "HighlightsAlerts":"Faits saillants et alertes",
+        "thirdParty":"La notation est fournie par un site tiers, indiquant la situation du projet d'investissement.",
+        "ViewMore":"Voir plus",
+        "ViewLess":"Voir moins",
+        "DataFrom":"données de",
+        "Highlights":{
+            "audit_history":"Audits de sécurité disponibles",
+            "coderepo_health":"La santé du dépôt de code est en excellent état",
+            "bug_bounty":"Prend en charge le programme de bug bounty en cours",
+            "team_identity":"Les membres de l’équipe principale sont identifiables",
+            "kyc":"L'équipe a réussi la vérification KYC",
+            "twitter_follower":"Le nombre d'abonnés Twitter/X se classe en tête {{data}}",
+            "market_cap":"La capitalisation boursière se classe en tête {{data}}",
+            "trading_volume":"Le volume des transactions quotidiennes se classe en tête {{data}}",
+            "token_activity":"Nombre de MAU classés en tête {{data}}"
+        },
+        "Alerts":{
+            "audit_history":"Une évaluation plus approfondie des audits de sécurité est requise",
+            "coderepo_health":"La santé du dépôt de code est inférieure à la moyenne",
+            "team_identity":"Les membres de l’équipe principale sont anonymisés",
+            "twitter_closure":"Le compte Twitter/X du projet a été fermé ou suspendu",
+            "price_slippage":"Dérapage des prix détecté au cours des trois derniers mois"
+        }
+    }
+}
