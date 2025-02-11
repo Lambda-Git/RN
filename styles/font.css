@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'BitruePro';
+    font-family: 'TestPro';
     font-display: swap;
     src: url('/fonts/website/Light.woff2') format('woff2'),
         url('/fonts/website/Light.otf') format('opentype');
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'BitruePro';
+    font-family: 'TestPro';
     font-display: swap;
     src: url('/fonts/website/Light.woff2') format('woff2'),
         url('/fonts/website/Light.otf') format('opentype');
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'BitruePro';
+    font-family: 'TestPro';
     font-display: swap;
     src: url('/fonts/website/Regular.woff2') format('woff2'),
         url('/fonts/website/Regular.otf') format('opentype');
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'BitruePro';
+    font-family: 'TestPro';
     font-display: swap;
     src: url('/fonts/website/Medium.woff2') format('woff2'),
         url('/fonts/website/Medium.otf') format('opentype');
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: 'BitruePro';
+    font-family: 'TestPro';
     font-display: swap;
     src: url('/fonts/website/SemiBold.woff2') format('woff2'),
         url('/fonts/website/SemiBold.otf') format('opentype');
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: 'BitruePro';
+    font-family: 'TestPro';
     font-display: swap;
     src: url('/fonts/website/SemiBold.woff2') format('woff2'),
         url('/fonts/website/SemiBold.otf') format('opentype');
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'BitruePro';
+    font-family: 'TestPro';
     font-display: swap;
     src: url('/fonts/website/SemiBold.woff2') format('woff2'),
         url('/fonts/website/SemiBold.otf') format('opentype');
@@ -55,5 +55,5 @@
 }
 
 html body {
-    font-family: BitruePro;
+    font-family: TestPro;
 }
