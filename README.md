@@ -57,8 +57,8 @@ export async function getStaticProps() {
 ```
 export async function getStaticProps() {
 return {
-props: { data },
-revalidate: 60 // 60秒后重新生成
+    props: { data },
+    revalidate: 60 // 60秒后重新生成
 };
 }
 ```
