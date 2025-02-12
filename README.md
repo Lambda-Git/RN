@@ -103,6 +103,7 @@ useEffect(() => {
     }, []);
 }
 5. Next.js 中的路由实现方式？
+```
 // 1. 链接导航
 import Link from 'next/link';
 function Navigation() {
@@ -114,9 +115,11 @@ function NavigateButton() {
     const router = useRouter();
     return <button onClick={() => router.push('/about')}>跳转</button>;
 }
+```
 6. 如何在 Next.js 中优化性能？
 主要优化方式：
  1.图片优化
+```
 import Image from 'next/image';
 function OptimizedImage() {
   return (
@@ -129,17 +132,23 @@ function OptimizedImage() {
     />
   );
 }
+```
 2. 路由预加载
+```
 import Link from 'next/link';
 <Link href="/about" prefetch={true}>
   预加载页面
 </Link>
+```
 3.动态导入
+```
 import dynamic from 'next/dynamic';
 const DynamicComponent = dynamic(() => import('../components/Heavy'), {
   loading: () => <p>加载中...</p>
 });
+```
 6、Next.js 中的中间件如何使用？
+```
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
@@ -154,18 +163,24 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: '/protected/:path*'
 };
+```
 7、Next.js 中如何处理环境变量？
 1. 创建环境变量文件：
+```
 - .env.local（本地环境）
 - .env.development（开发环境）
 - .env.production（生产环境）
+```
 2. 使用环境变量：javascript
+```
 // 服务器端
 console.log(process.env.DATABASE_URL);
 
 // 客户端（需要 NEXT_PUBLIC_ 前缀）
 console.log(process.env.NEXT_PUBLIC_API_URL)；
+```
 9. Next.js 中的 API 路由如何实现？
+```
 import { NextResponse } from 'next/server';
 export async function GET() {
     return NextResponse.json({ users: ['用户1', '用户2'] });
@@ -174,6 +189,7 @@ export async function POST(request: Request) {
 const data = await request.json();
     return NextResponse.json({ message: '创建成功' });
 }
+```
 10. Next.js 中如何实现国际化？
 ```
 // next.config.js
@@ -188,10 +204,10 @@ import { useRouter } from 'next/router';
 function LanguageSwitcher() {
 const router = useRouter();
 return (
-<select onChange={(e) => router.push(router.pathname, router.pathname, { locale: e.target.value })}>
-<option value="en">English</option>
-<option value="zh">中文</option>
-</select>
+    <select onChange={(e) => router.push(router.pathname, router.pathname, { locale: e.target.value })}>
+    <option value="en">English</option>
+    <option value="zh">中文</option>
+    </select>
 );
 }
 ```
